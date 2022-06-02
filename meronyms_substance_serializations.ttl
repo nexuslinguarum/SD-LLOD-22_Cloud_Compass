@@ -1,0 +1,2194 @@
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance01 a rdf:Statement ;
+    rdf:object BATS:gas ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:atmosphere ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance02 a rdf:Statement ;
+    rdf:object BATS:oxygen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:atmosphere ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance03 a rdf:Statement ;
+    rdf:object BATS:hydrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:atmosphere ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance04 a rdf:Statement ;
+    rdf:object BATS:nitrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:atmosphere ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance05 a rdf:Statement ;
+    rdf:object BATS:ozone ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:atmosphere ;
+    BATS:rank 5 .
+
+BATS:gas a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gas"@en .
+
+BATS:hydrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hydrogen"@en .
+
+BATS:nitrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nitrogen"@en .
+
+BATS:oxygen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oxygen"@en .
+
+BATS:ozone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ozone"@en .
+
+BATS:atmosphere a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atmosphere"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance06 a rdf:Statement ;
+    rdf:object BATS:leather ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bag ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance07 a rdf:Statement ;
+    rdf:object BATS:fabric ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bag ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance08 a rdf:Statement ;
+    rdf:object BATS:plastic ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bag ;
+    BATS:rank 3 .
+
+BATS:fabric a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fabric"@en .
+
+BATS:leather a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "leather"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+BATS:bag a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bag"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance09 a rdf:Statement ;
+    rdf:object BATS:sand ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance10 a rdf:Statement ;
+    rdf:object BATS:silicon ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance11 a rdf:Statement ;
+    rdf:object BATS:rocks ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance12 a rdf:Statement ;
+    rdf:object BATS:pebbles ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance13 a rdf:Statement ;
+    rdf:object BATS:atomic_number_14 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance14 a rdf:Statement ;
+    rdf:object BATS:si ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beach ;
+    BATS:rank 6 .
+
+BATS:atomic_number_14 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_14"@en .
+
+BATS:pebbles a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pebbles"@en .
+
+BATS:rocks a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rocks"@en .
+
+BATS:sand a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sand"@en .
+
+BATS:si a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "si"@en .
+
+BATS:silicon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "silicon"@en .
+
+BATS:beach a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beach"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance15 a rdf:Statement ;
+    rdf:object BATS:hair ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:beard ;
+    BATS:rank 1 .
+
+BATS:beard a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beard"@en .
+
+BATS:hair a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hair"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance16 a rdf:Statement ;
+    rdf:object BATS:flesh ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:body ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance17 a rdf:Statement ;
+    rdf:object BATS:bones ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:body ;
+    BATS:rank 2 .
+
+BATS:bones a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bones"@en .
+
+BATS:flesh a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flesh"@en .
+
+BATS:body a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "body"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance18 a rdf:Statement ;
+    rdf:object BATS:leather ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:boots ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance19 a rdf:Statement ;
+    rdf:object BATS:canvas ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:boots ;
+    BATS:rank 2 .
+
+BATS:canvas a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "canvas"@en .
+
+BATS:leather a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "leather"@en .
+
+BATS:boots a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "boots"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance20 a rdf:Statement ;
+    rdf:object BATS:glass ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bottle ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance21 a rdf:Statement ;
+    rdf:object BATS:plastic ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bottle ;
+    BATS:rank 2 .
+
+BATS:glass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glass"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+BATS:bottle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bottle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance22 a rdf:Statement ;
+    rdf:object BATS:glass ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance23 a rdf:Statement ;
+    rdf:object BATS:china ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance24 a rdf:Statement ;
+    rdf:object BATS:aluminium ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance25 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance26 a rdf:Statement ;
+    rdf:object BATS:steel ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance27 a rdf:Statement ;
+    rdf:object BATS:plastic ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance28 a rdf:Statement ;
+    rdf:object BATS:clay ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bowl ;
+    BATS:rank 7 .
+
+BATS:aluminium a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aluminium"@en .
+
+BATS:china a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "china"@en .
+
+BATS:clay a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clay"@en .
+
+BATS:glass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glass"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+BATS:steel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steel"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:bowl a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bowl"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance29 a rdf:Statement ;
+    rdf:object BATS:cardboard ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:box ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance30 a rdf:Statement ;
+    rdf:object BATS:tin ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:box ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance31 a rdf:Statement ;
+    rdf:object BATS:boxwood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:box ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance32 a rdf:Statement ;
+    rdf:object BATS:turkish_boxwood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:box ;
+    BATS:rank 4 .
+
+BATS:boxwood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "boxwood"@en .
+
+BATS:cardboard a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cardboard"@en .
+
+BATS:tin a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tin"@en .
+
+BATS:turkish_boxwood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "turkish_boxwood"@en .
+
+BATS:box a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "box"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance33 a rdf:Statement ;
+    rdf:object BATS:flour ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bread ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance34 a rdf:Statement ;
+    rdf:object BATS:yeast ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bread ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance35 a rdf:Statement ;
+    rdf:object BATS: ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bread ;
+    BATS:rank 3 .
+
+BATS: a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label ""@en .
+
+BATS:flour a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flour"@en .
+
+BATS:yeast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "yeast"@en .
+
+BATS:bread a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bread"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance36 a rdf:Statement ;
+    rdf:object BATS:copper ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bronze ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance37 a rdf:Statement ;
+    rdf:object BATS:tin ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bronze ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance38 a rdf:Statement ;
+    rdf:object BATS:cu ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bronze ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance39 a rdf:Statement ;
+    rdf:object BATS:atomic_number_29 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:bronze ;
+    BATS:rank 4 .
+
+BATS:atomic_number_29 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_29"@en .
+
+BATS:copper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "copper"@en .
+
+BATS:cu a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cu"@en .
+
+BATS:tin a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tin"@en .
+
+BATS:bronze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bronze"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance40 a rdf:Statement ;
+    rdf:object BATS:sugar ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance41 a rdf:Statement ;
+    rdf:object BATS:nougat ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance42 a rdf:Statement ;
+    rdf:object BATS:chocolate ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance43 a rdf:Statement ;
+    rdf:object BATS:gelatin ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance44 a rdf:Statement ;
+    rdf:object BATS:molasses ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance45 a rdf:Statement ;
+    rdf:object BATS:syrup ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance46 a rdf:Statement ;
+    rdf:object BATS:honey ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance47 a rdf:Statement ;
+    rdf:object BATS:fruit ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance48 a rdf:Statement ;
+    rdf:object BATS:nuts ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:candy ;
+    BATS:rank 9 .
+
+BATS:chocolate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chocolate"@en .
+
+BATS:fruit a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fruit"@en .
+
+BATS:gelatin a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gelatin"@en .
+
+BATS:honey a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "honey"@en .
+
+BATS:molasses a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "molasses"@en .
+
+BATS:nougat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nougat"@en .
+
+BATS:nuts a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nuts"@en .
+
+BATS:sugar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sugar"@en .
+
+BATS:syrup a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "syrup"@en .
+
+BATS:candy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "candy"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance49 a rdf:Statement ;
+    rdf:object BATS:cocoa ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:chocolate ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance50 a rdf:Statement ;
+    rdf:object BATS:bean ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:chocolate ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance51 a rdf:Statement ;
+    rdf:object BATS:cacao ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:chocolate ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance52 a rdf:Statement ;
+    rdf:object BATS:cacao_bean ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:chocolate ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance53 a rdf:Statement ;
+    rdf:object BATS:cocoa_bean ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:chocolate ;
+    BATS:rank 5 .
+
+BATS:bean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bean"@en .
+
+BATS:cacao a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cacao"@en .
+
+BATS:cacao_bean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cacao_bean"@en .
+
+BATS:cocoa a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cocoa"@en .
+
+BATS:cocoa_bean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cocoa_bean"@en .
+
+BATS:chocolate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chocolate"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance54 a rdf:Statement ;
+    rdf:object BATS:fabric ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:clothing ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance55 a rdf:Statement ;
+    rdf:object BATS:leather ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:clothing ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance56 a rdf:Statement ;
+    rdf:object BATS: ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:clothing ;
+    BATS:rank 3 .
+
+BATS: a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label ""@en .
+
+BATS:fabric a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fabric"@en .
+
+BATS:leather a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "leather"@en .
+
+BATS:clothing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clothing"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance57 a rdf:Statement ;
+    rdf:object BATS:vapor ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cloud ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance58 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cloud ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance59 a rdf:Statement ;
+    rdf:object BATS:vapour ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cloud ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance60 a rdf:Statement ;
+    rdf:object BATS:water_vapour ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cloud ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance61 a rdf:Statement ;
+    rdf:object BATS:water_vapor ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cloud ;
+    BATS:rank 5 .
+
+BATS:vapor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "vapor"@en .
+
+BATS:vapour a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "vapour"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:water_vapor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water_vapor"@en .
+
+BATS:water_vapour a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water_vapour"@en .
+
+BATS:cloud a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cloud"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance62 a rdf:Statement ;
+    rdf:object BATS:alcohol ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cocktail ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance63 a rdf:Statement ;
+    rdf:object BATS:juice ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cocktail ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance64 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:cocktail ;
+    BATS:rank 3 .
+
+BATS:alcohol a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "alcohol"@en .
+
+BATS:juice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "juice"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:cocktail a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cocktail"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance65 a rdf:Statement ;
+    rdf:object BATS:silicon ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance66 a rdf:Statement ;
+    rdf:object BATS:cement ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance67 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance68 a rdf:Statement ;
+    rdf:object BATS:sand ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance69 a rdf:Statement ;
+    rdf:object BATS:atomic_number_14 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance70 a rdf:Statement ;
+    rdf:object BATS:si ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:concrete ;
+    BATS:rank 6 .
+
+BATS:atomic_number_14 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_14"@en .
+
+BATS:cement a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cement"@en .
+
+BATS:sand a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sand"@en .
+
+BATS:si a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "si"@en .
+
+BATS:silicon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "silicon"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:concrete a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "concrete"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance71 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:desk ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance72 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:desk ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance73 a rdf:Statement ;
+    rdf:object BATS:steel ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:desk ;
+    BATS:rank 3 .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:steel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steel"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:desk a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "desk"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance74 a rdf:Statement ;
+    rdf:object BATS:carbon ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:diamond ;
+    BATS:rank 1 .
+
+BATS:carbon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "carbon"@en .
+
+BATS:diamond a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "diamond"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance75 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:doorknob ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance76 a rdf:Statement ;
+    rdf:object BATS:steel ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:doorknob ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance77 a rdf:Statement ;
+    rdf:object BATS:bronze ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:doorknob ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance78 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:doorknob ;
+    BATS:rank 4 .
+
+BATS:bronze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bronze"@en .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:steel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steel"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:doorknob a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "doorknob"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance79 a rdf:Statement ;
+    rdf:object BATS:fabric ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:flag ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance80 a rdf:Statement ;
+    rdf:object BATS:paper ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:flag ;
+    BATS:rank 2 .
+
+BATS:fabric a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fabric"@en .
+
+BATS:paper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "paper"@en .
+
+BATS:flag a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flag"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance81 a rdf:Statement ;
+    rdf:object BATS:ice ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance82 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance83 a rdf:Statement ;
+    rdf:object BATS:oxygen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance84 a rdf:Statement ;
+    rdf:object BATS:hydrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance85 a rdf:Statement ;
+    rdf:object BATS:h ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance86 a rdf:Statement ;
+    rdf:object BATS:h2o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance87 a rdf:Statement ;
+    rdf:object BATS:atomic_number_8 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance88 a rdf:Statement ;
+    rdf:object BATS:atomic_number_1 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance89 a rdf:Statement ;
+    rdf:object BATS:o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 9 .
+
+BATS:meronyms_substance90 a rdf:Statement ;
+    rdf:object BATS:water_ice ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glacier ;
+    BATS:rank 10 .
+
+BATS:atomic_number_1 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_1"@en .
+
+BATS:atomic_number_8 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_8"@en .
+
+BATS:h a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h"@en .
+
+BATS:h2o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h2o"@en .
+
+BATS:hydrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hydrogen"@en .
+
+BATS:ice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ice"@en .
+
+BATS:o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "o"@en .
+
+BATS:oxygen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oxygen"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:water_ice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water_ice"@en .
+
+BATS:glacier a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glacier"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance91 a rdf:Statement ;
+    rdf:object BATS:silicone ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:glass ;
+    BATS:rank 1 .
+
+BATS:glass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glass"@en .
+
+BATS:silicone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "silicone"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance92 a rdf:Statement ;
+    rdf:object BATS:bricks ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:house ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance93 a rdf:Statement ;
+    rdf:object BATS:cement ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:house ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance94 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:house ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance95 a rdf:Statement ;
+    rdf:object BATS:clay ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:house ;
+    BATS:rank 4 .
+
+BATS:bricks a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bricks"@en .
+
+BATS:cement a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cement"@en .
+
+BATS:clay a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clay"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:house a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "house"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance100 a rdf:Statement ;
+    rdf:object BATS:h2o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance101 a rdf:Statement ;
+    rdf:object BATS:atomic_number_1 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance102 a rdf:Statement ;
+    rdf:object BATS:atomic_number_8 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance103 a rdf:Statement ;
+    rdf:object BATS:h ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance104 a rdf:Statement ;
+    rdf:object BATS:o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 9 .
+
+BATS:meronyms_substance96 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance97 a rdf:Statement ;
+    rdf:object BATS:oxygen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance98 a rdf:Statement ;
+    rdf:object BATS:hydrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance99 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ice ;
+    BATS:rank 4 .
+
+BATS:atomic_number_1 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_1"@en .
+
+BATS:atomic_number_8 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_8"@en .
+
+BATS:h a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h"@en .
+
+BATS:h2o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h2o"@en .
+
+BATS:hydrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hydrogen"@en .
+
+BATS:o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "o"@en .
+
+BATS:oxygen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oxygen"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:ice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ice"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance105 a rdf:Statement ;
+    rdf:object BATS:ice ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:icicle ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance106 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:icicle ;
+    BATS:rank 2 .
+
+BATS:ice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ice"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:icicle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "icicle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance107 a rdf:Statement ;
+    rdf:object BATS:fruit ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:jam ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance108 a rdf:Statement ;
+    rdf:object BATS:sugar ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:jam ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance109 a rdf:Statement ;
+    rdf:object BATS:berries ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:jam ;
+    BATS:rank 3 .
+
+BATS:berries a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "berries"@en .
+
+BATS:fruit a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fruit"@en .
+
+BATS:sugar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sugar"@en .
+
+BATS:jam a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jam"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance110 a rdf:Statement ;
+    rdf:object BATS:fabric ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:jeans ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance111 a rdf:Statement ;
+    rdf:object BATS:denim ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:jeans ;
+    BATS:rank 2 .
+
+BATS:denim a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "denim"@en .
+
+BATS:fabric a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fabric"@en .
+
+BATS:jeans a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jeans"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance112 a rdf:Statement ;
+    rdf:object BATS:grass ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:lawn ;
+    BATS:rank 1 .
+
+BATS:grass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grass"@en .
+
+BATS:lawn a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lawn"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance113 a rdf:Statement ;
+    rdf:object BATS:glass ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:lens ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance114 a rdf:Statement ;
+    rdf:object BATS:plastic ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:lens ;
+    BATS:rank 2 .
+
+BATS:glass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glass"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+BATS:lens a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lens"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance115 a rdf:Statement ;
+    rdf:object BATS:glass ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:mirror ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance116 a rdf:Statement ;
+    rdf:object BATS:bronze ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:mirror ;
+    BATS:rank 2 .
+
+BATS:bronze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bronze"@en .
+
+BATS:glass a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glass"@en .
+
+BATS:mirror a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mirror"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance117 a rdf:Statement ;
+    rdf:object BATS:paper ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance118 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance119 a rdf:Statement ;
+    rdf:object BATS:silver ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance120 a rdf:Statement ;
+    rdf:object BATS:gold ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance121 a rdf:Statement ;
+    rdf:object BATS:iron ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance122 a rdf:Statement ;
+    rdf:object BATS:copper ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance123 a rdf:Statement ;
+    rdf:object BATS:tin ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:money ;
+    BATS:rank 7 .
+
+BATS:copper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "copper"@en .
+
+BATS:gold a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gold"@en .
+
+BATS:iron a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "iron"@en .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:paper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "paper"@en .
+
+BATS:silver a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "silver"@en .
+
+BATS:tin a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tin"@en .
+
+BATS:money a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "money"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance124 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:ocean ;
+    BATS:rank 1 .
+
+BATS:ocean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ocean"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance125 a rdf:Statement ;
+    rdf:object BATS:eggs ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:omelette ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance126 a rdf:Statement ;
+    rdf:object BATS:egg ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:omelette ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance127 a rdf:Statement ;
+    rdf:object BATS:milk ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:omelette ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance128 a rdf:Statement ;
+    rdf:object BATS:cheese ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:omelette ;
+    BATS:rank 4 .
+
+BATS:cheese a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cheese"@en .
+
+BATS:egg a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "egg"@en .
+
+BATS:eggs a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "eggs"@en .
+
+BATS:milk a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "milk"@en .
+
+BATS:omelette a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "omelette"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance129 a rdf:Statement ;
+    rdf:object BATS:flour ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pastry ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance130 a rdf:Statement ;
+    rdf:object BATS:egg ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pastry ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance131 a rdf:Statement ;
+    rdf:object BATS:butter ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pastry ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance132 a rdf:Statement ;
+    rdf:object BATS:filling ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pastry ;
+    BATS:rank 4 .
+
+BATS:butter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "butter"@en .
+
+BATS:egg a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "egg"@en .
+
+BATS:filling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "filling"@en .
+
+BATS:flour a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flour"@en .
+
+BATS:pastry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pastry"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance133 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance134 a rdf:Statement ;
+    rdf:object BATS:alloy ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance135 a rdf:Statement ;
+    rdf:object BATS:bronze ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance136 a rdf:Statement ;
+    rdf:object BATS:nickel ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance137 a rdf:Statement ;
+    rdf:object BATS:zinc ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance138 a rdf:Statement ;
+    rdf:object BATS:copper ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance139 a rdf:Statement ;
+    rdf:object BATS:tin ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:penny ;
+    BATS:rank 7 .
+
+BATS:alloy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "alloy"@en .
+
+BATS:bronze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bronze"@en .
+
+BATS:copper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "copper"@en .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:nickel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nickel"@en .
+
+BATS:tin a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tin"@en .
+
+BATS:zinc a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "zinc"@en .
+
+BATS:penny a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "penny"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance140 a rdf:Statement ;
+    rdf:object BATS:medicine ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pill ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance141 a rdf:Statement ;
+    rdf:object BATS:drug ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:pill ;
+    BATS:rank 2 .
+
+BATS:drug a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drug"@en .
+
+BATS:medicine a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "medicine"@en .
+
+BATS:pill a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pill"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance142 a rdf:Statement ;
+    rdf:object BATS:polymer ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:plastic ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance143 a rdf:Statement ;
+    rdf:object BATS:oil ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:plastic ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance144 a rdf:Statement ;
+    rdf:object BATS:gas ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:plastic ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance145 a rdf:Statement ;
+    rdf:object BATS:coal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:plastic ;
+    BATS:rank 4 .
+
+BATS:coal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "coal"@en .
+
+BATS:gas a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gas"@en .
+
+BATS:oil a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oil"@en .
+
+BATS:polymer a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "polymer"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance146 a rdf:Statement ;
+    rdf:object BATS:shingles ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:roof ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance147 a rdf:Statement ;
+    rdf:object BATS:tiles ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:roof ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance148 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:roof ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance149 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:roof ;
+    BATS:rank 4 .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:shingles a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shingles"@en .
+
+BATS:tiles a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tiles"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:roof a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "roof"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance150 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:sea ;
+    BATS:rank 1 .
+
+BATS:sea a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sea"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance151 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance152 a rdf:Statement ;
+    rdf:object BATS:oxygen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance153 a rdf:Statement ;
+    rdf:object BATS:hydrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance154 a rdf:Statement ;
+    rdf:object BATS:flake ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance155 a rdf:Statement ;
+    rdf:object BATS:ice ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance156 a rdf:Statement ;
+    rdf:object BATS:snowflake ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance157 a rdf:Statement ;
+    rdf:object BATS:snowflakes ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance158 a rdf:Statement ;
+    rdf:object BATS:h2o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance159 a rdf:Statement ;
+    rdf:object BATS:atomic_number_1 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 9 .
+
+BATS:meronyms_substance160 a rdf:Statement ;
+    rdf:object BATS:atomic_number_8 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 10 .
+
+BATS:meronyms_substance161 a rdf:Statement ;
+    rdf:object BATS:h ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 11 .
+
+BATS:meronyms_substance162 a rdf:Statement ;
+    rdf:object BATS:o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:snow ;
+    BATS:rank 12 .
+
+BATS:atomic_number_1 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_1"@en .
+
+BATS:atomic_number_8 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_8"@en .
+
+BATS:flake a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flake"@en .
+
+BATS:h a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h"@en .
+
+BATS:h2o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h2o"@en .
+
+BATS:hydrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hydrogen"@en .
+
+BATS:ice a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ice"@en .
+
+BATS:o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "o"@en .
+
+BATS:oxygen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oxygen"@en .
+
+BATS:snowflake a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snowflake"@en .
+
+BATS:snowflakes a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snowflakes"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+BATS:snow a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snow"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance163 a rdf:Statement ;
+    rdf:object BATS:aluminium ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:spoon ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance164 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:spoon ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance165 a rdf:Statement ;
+    rdf:object BATS:steel ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:spoon ;
+    BATS:rank 3 .
+
+BATS:aluminium a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aluminium"@en .
+
+BATS:steel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steel"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:spoon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "spoon"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance166 a rdf:Statement ;
+    rdf:object BATS:iron ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance167 a rdf:Statement ;
+    rdf:object BATS:pearlite ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance168 a rdf:Statement ;
+    rdf:object BATS:carbon ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance169 a rdf:Statement ;
+    rdf:object BATS:cementite ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance170 a rdf:Statement ;
+    rdf:object BATS:ferrite ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance171 a rdf:Statement ;
+    rdf:object BATS:iron_carbide ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance172 a rdf:Statement ;
+    rdf:object BATS:fe ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance173 a rdf:Statement ;
+    rdf:object BATS:atomic_number_26 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance174 a rdf:Statement ;
+    rdf:object BATS:alpha_iron ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:steel ;
+    BATS:rank 9 .
+
+BATS:alpha_iron a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "alpha_iron"@en .
+
+BATS:atomic_number_26 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_26"@en .
+
+BATS:carbon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "carbon"@en .
+
+BATS:cementite a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cementite"@en .
+
+BATS:fe a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fe"@en .
+
+BATS:ferrite a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ferrite"@en .
+
+BATS:iron a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "iron"@en .
+
+BATS:iron_carbide a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "iron_carbide"@en .
+
+BATS:pearlite a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pearlite"@en .
+
+BATS:steel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steel"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance175 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:table ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance176 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:table ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance177 a rdf:Statement ;
+    rdf:object BATS:plastic ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:table ;
+    BATS:rank 3 .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:plastic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plastic"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:table a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "table"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance178 a rdf:Statement ;
+    rdf:object BATS:cement ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance179 a rdf:Statement ;
+    rdf:object BATS:bricks ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance180 a rdf:Statement ;
+    rdf:object BATS:stones ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance181 a rdf:Statement ;
+    rdf:object BATS:rocks ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance182 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance183 a rdf:Statement ;
+    rdf:object BATS:cardboard ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance184 a rdf:Statement ;
+    rdf:object BATS:board ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance185 a rdf:Statement ;
+    rdf:object BATS:plank ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 8 .
+
+BATS:meronyms_substance186 a rdf:Statement ;
+    rdf:object BATS:clay ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 9 .
+
+BATS:meronyms_substance187 a rdf:Statement ;
+    rdf:object BATS:mud ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wall ;
+    BATS:rank 10 .
+
+BATS:board a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "board"@en .
+
+BATS:bricks a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bricks"@en .
+
+BATS:cardboard a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cardboard"@en .
+
+BATS:cement a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cement"@en .
+
+BATS:clay a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clay"@en .
+
+BATS:mud a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mud"@en .
+
+BATS:plank a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plank"@en .
+
+BATS:rocks a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rocks"@en .
+
+BATS:stones a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stones"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:wall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wall"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance188 a rdf:Statement ;
+    rdf:object BATS:oxygen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance189 a rdf:Statement ;
+    rdf:object BATS:hydrogen ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 2 .
+
+BATS:meronyms_substance190 a rdf:Statement ;
+    rdf:object BATS:water ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 3 .
+
+BATS:meronyms_substance191 a rdf:Statement ;
+    rdf:object BATS:h2o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 4 .
+
+BATS:meronyms_substance192 a rdf:Statement ;
+    rdf:object BATS:atomic_number_1 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 5 .
+
+BATS:meronyms_substance193 a rdf:Statement ;
+    rdf:object BATS:atomic_number_8 ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 6 .
+
+BATS:meronyms_substance194 a rdf:Statement ;
+    rdf:object BATS:h ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 7 .
+
+BATS:meronyms_substance195 a rdf:Statement ;
+    rdf:object BATS:o ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:water ;
+    BATS:rank 8 .
+
+BATS:atomic_number_1 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_1"@en .
+
+BATS:atomic_number_8 a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atomic_number_8"@en .
+
+BATS:h a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h"@en .
+
+BATS:h2o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "h2o"@en .
+
+BATS:hydrogen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hydrogen"@en .
+
+BATS:o a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "o"@en .
+
+BATS:oxygen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "oxygen"@en .
+
+BATS:water a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "water"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance196 a rdf:Statement ;
+    rdf:object BATS:hair ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wig ;
+    BATS:rank 1 .
+
+BATS:hair a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hair"@en .
+
+BATS:wig a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wig"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance197 a rdf:Statement ;
+    rdf:object BATS:grapes ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wine ;
+    BATS:rank 1 .
+
+BATS:meronyms_substance198 a rdf:Statement ;
+    rdf:object BATS:grape ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wine ;
+    BATS:rank 2 .
+
+BATS:grape a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grape"@en .
+
+BATS:grapes a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grapes"@en .
+
+BATS:wine a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wine"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance199 a rdf:Statement ;
+    rdf:object BATS:metal ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:wire ;
+    BATS:rank 1 .
+
+BATS:metal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "metal"@en .
+
+BATS:wire a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wire"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_substance200 a rdf:Statement ;
+    rdf:object BATS:milk ;
+    rdf:predicate BATS:meronyms_substance ;
+    rdf:subject BATS:yogurt ;
+    BATS:rank 1 .
+
+BATS:milk a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "milk"@en .
+
+BATS:yogurt a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "yogurt"@en .
+

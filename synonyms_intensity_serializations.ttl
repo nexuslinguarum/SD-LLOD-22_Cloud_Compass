@@ -1,0 +1,2677 @@
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity01 a rdf:Statement ;
+    rdf:object BATS:terrified ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity02 a rdf:Statement ;
+    rdf:object BATS:horrified ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity03 a rdf:Statement ;
+    rdf:object BATS:scared ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity04 a rdf:Statement ;
+    rdf:object BATS:stiff ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity05 a rdf:Statement ;
+    rdf:object BATS:petrified ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity06 a rdf:Statement ;
+    rdf:object BATS:fearful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity07 a rdf:Statement ;
+    rdf:object BATS:panicky ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:afraid ;
+    BATS:rank 7 .
+
+BATS:fearful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fearful"@en .
+
+BATS:horrified a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "horrified"@en .
+
+BATS:panicky a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "panicky"@en .
+
+BATS:petrified a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "petrified"@en .
+
+BATS:scared a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scared"@en .
+
+BATS:stiff a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stiff"@en .
+
+BATS:terrified a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "terrified"@en .
+
+BATS:afraid a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afraid"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity08 a rdf:Statement ;
+    rdf:object BATS:furious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity09 a rdf:Statement ;
+    rdf:object BATS:enraged ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity10 a rdf:Statement ;
+    rdf:object BATS:outraged ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity11 a rdf:Statement ;
+    rdf:object BATS:aggrivated ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity12 a rdf:Statement ;
+    rdf:object BATS:irate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity13 a rdf:Statement ;
+    rdf:object BATS:seething ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:angry ;
+    BATS:rank 6 .
+
+BATS:aggrivated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aggrivated"@en .
+
+BATS:enraged a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "enraged"@en .
+
+BATS:furious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "furious"@en .
+
+BATS:irate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "irate"@en .
+
+BATS:outraged a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outraged"@en .
+
+BATS:seething a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "seething"@en .
+
+BATS:angry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "angry"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity14 a rdf:Statement ;
+    rdf:object BATS:beg ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity15 a rdf:Statement ;
+    rdf:object BATS:implore ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity16 a rdf:Statement ;
+    rdf:object BATS:pray ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity17 a rdf:Statement ;
+    rdf:object BATS:entreat ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity18 a rdf:Statement ;
+    rdf:object BATS:supplicate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity19 a rdf:Statement ;
+    rdf:object BATS:insist ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:ask ;
+    BATS:rank 6 .
+
+BATS:beg a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beg"@en .
+
+BATS:entreat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entreat"@en .
+
+BATS:implore a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "implore"@en .
+
+BATS:insist a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "insist"@en .
+
+BATS:pray a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pray"@en .
+
+BATS:supplicate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "supplicate"@en .
+
+BATS:ask a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ask"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity20 a rdf:Statement ;
+    rdf:object BATS:awful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity21 a rdf:Statement ;
+    rdf:object BATS:atrocious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity22 a rdf:Statement ;
+    rdf:object BATS:abominable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity23 a rdf:Statement ;
+    rdf:object BATS:dreadful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity24 a rdf:Statement ;
+    rdf:object BATS:painful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity25 a rdf:Statement ;
+    rdf:object BATS:terrible ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity26 a rdf:Statement ;
+    rdf:object BATS:unspeakable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:bad ;
+    BATS:rank 7 .
+
+BATS:abominable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "abominable"@en .
+
+BATS:atrocious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "atrocious"@en .
+
+BATS:awful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "awful"@en .
+
+BATS:dreadful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dreadful"@en .
+
+BATS:painful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "painful"@en .
+
+BATS:terrible a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "terrible"@en .
+
+BATS:unspeakable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unspeakable"@en .
+
+BATS:bad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bad"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity27 a rdf:Statement ;
+    rdf:object BATS:tedious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity28 a rdf:Statement ;
+    rdf:object BATS:deadening ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity29 a rdf:Statement ;
+    rdf:object BATS:dull ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity30 a rdf:Statement ;
+    rdf:object BATS:ho-hum ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity31 a rdf:Statement ;
+    rdf:object BATS:irksome ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity32 a rdf:Statement ;
+    rdf:object BATS:tiresome ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity33 a rdf:Statement ;
+    rdf:object BATS:wearisome ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:boring ;
+    BATS:rank 7 .
+
+BATS:deadening a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "deadening"@en .
+
+BATS:dull a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dull"@en .
+
+BATS:ho-hum a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ho-hum"@en .
+
+BATS:irksome a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "irksome"@en .
+
+BATS:tedious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tedious"@en .
+
+BATS:tiresome a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tiresome"@en .
+
+BATS:wearisome a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wearisome"@en .
+
+BATS:boring a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "boring"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity34 a rdf:Statement ;
+    rdf:object BATS:lion ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cat ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity35 a rdf:Statement ;
+    rdf:object BATS:tiger ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cat ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity36 a rdf:Statement ;
+    rdf:object BATS:leopard ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cat ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity37 a rdf:Statement ;
+    rdf:object BATS:panther ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cat ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity38 a rdf:Statement ;
+    rdf:object BATS:jaguar ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cat ;
+    BATS:rank 5 .
+
+BATS:jaguar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jaguar"@en .
+
+BATS:leopard a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "leopard"@en .
+
+BATS:lion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lion"@en .
+
+BATS:panther a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "panther"@en .
+
+BATS:tiger a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tiger"@en .
+
+BATS:cat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cat"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity39 a rdf:Statement ;
+    rdf:object BATS:laugh ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity40 a rdf:Statement ;
+    rdf:object BATS:guffaw ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity41 a rdf:Statement ;
+    rdf:object BATS:chortle ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity42 a rdf:Statement ;
+    rdf:object BATS:guffaw ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity43 a rdf:Statement ;
+    rdf:object BATS:snicker ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity44 a rdf:Statement ;
+    rdf:object BATS:snigger ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity45 a rdf:Statement ;
+    rdf:object BATS:titter ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity46 a rdf:Statement ;
+    rdf:object BATS:roar ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:chuckle ;
+    BATS:rank 8 .
+
+BATS:chortle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chortle"@en .
+
+BATS:laugh a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "laugh"@en .
+
+BATS:roar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "roar"@en .
+
+BATS:snicker a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snicker"@en .
+
+BATS:snigger a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snigger"@en .
+
+BATS:titter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "titter"@en .
+
+BATS:guffaw a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "guffaw"@en .
+
+BATS:chuckle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chuckle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity47 a rdf:Statement ;
+    rdf:object BATS:lost ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:confused ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity48 a rdf:Statement ;
+    rdf:object BATS:bewildered ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:confused ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity49 a rdf:Statement ;
+    rdf:object BATS:trapped ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:confused ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity50 a rdf:Statement ;
+    rdf:object BATS:desperate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:confused ;
+    BATS:rank 4 .
+
+BATS:bewildered a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bewildered"@en .
+
+BATS:desperate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "desperate"@en .
+
+BATS:lost a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lost"@en .
+
+BATS:trapped a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "trapped"@en .
+
+BATS:confused a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "confused"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity51 a rdf:Statement ;
+    rdf:object BATS:ingenious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity52 a rdf:Statement ;
+    rdf:object BATS:inventive ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity53 a rdf:Statement ;
+    rdf:object BATS:demiurgic ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity54 a rdf:Statement ;
+    rdf:object BATS:deviceful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity55 a rdf:Statement ;
+    rdf:object BATS:innovational ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity56 a rdf:Statement ;
+    rdf:object BATS:innovative ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity57 a rdf:Statement ;
+    rdf:object BATS:innovatory ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity58 a rdf:Statement ;
+    rdf:object BATS:original ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity59 a rdf:Statement ;
+    rdf:object BATS:originative ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:creative ;
+    BATS:rank 9 .
+
+BATS:demiurgic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "demiurgic"@en .
+
+BATS:deviceful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "deviceful"@en .
+
+BATS:ingenious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ingenious"@en .
+
+BATS:innovational a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "innovational"@en .
+
+BATS:innovative a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "innovative"@en .
+
+BATS:innovatory a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "innovatory"@en .
+
+BATS:inventive a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inventive"@en .
+
+BATS:original a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "original"@en .
+
+BATS:originative a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "originative"@en .
+
+BATS:creative a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "creative"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity60 a rdf:Statement ;
+    rdf:object BATS:scream ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cry ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity61 a rdf:Statement ;
+    rdf:object BATS:shriek ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cry ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity62 a rdf:Statement ;
+    rdf:object BATS:screech ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cry ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity63 a rdf:Statement ;
+    rdf:object BATS:screeching ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:cry ;
+    BATS:rank 4 .
+
+BATS:scream a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scream"@en .
+
+BATS:screech a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "screech"@en .
+
+BATS:screeching a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "screeching"@en .
+
+BATS:shriek a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shriek"@en .
+
+BATS:cry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cry"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity64 a rdf:Statement ;
+    rdf:object BATS:drenched ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity65 a rdf:Statement ;
+    rdf:object BATS:dripping ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity66 a rdf:Statement ;
+    rdf:object BATS:saturated ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity67 a rdf:Statement ;
+    rdf:object BATS:soaked ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity68 a rdf:Statement ;
+    rdf:object BATS:soaking ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity69 a rdf:Statement ;
+    rdf:object BATS:sodden ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity70 a rdf:Statement ;
+    rdf:object BATS:sopping ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity71 a rdf:Statement ;
+    rdf:object BATS:soppy ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity72 a rdf:Statement ;
+    rdf:object BATS:soused ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity73 a rdf:Statement ;
+    rdf:object BATS:wringing-wet ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:damp ;
+    BATS:rank 10 .
+
+BATS:drenched a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drenched"@en .
+
+BATS:dripping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dripping"@en .
+
+BATS:saturated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "saturated"@en .
+
+BATS:soaked a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soaked"@en .
+
+BATS:soaking a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soaking"@en .
+
+BATS:sodden a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sodden"@en .
+
+BATS:sopping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sopping"@en .
+
+BATS:soppy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soppy"@en .
+
+BATS:soused a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soused"@en .
+
+BATS:wringing-wet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wringing-wet"@en .
+
+BATS:damp a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "damp"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity74 a rdf:Statement ;
+    rdf:object BATS:feast ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dinner ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity75 a rdf:Statement ;
+    rdf:object BATS:banquet ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dinner ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity76 a rdf:Statement ;
+    rdf:object BATS:fiesta ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dinner ;
+    BATS:rank 3 .
+
+BATS:banquet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "banquet"@en .
+
+BATS:feast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "feast"@en .
+
+BATS:fiesta a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fiesta"@en .
+
+BATS:dinner a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dinner"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity77 a rdf:Statement ;
+    rdf:object BATS:hate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity78 a rdf:Statement ;
+    rdf:object BATS:abhor ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity79 a rdf:Statement ;
+    rdf:object BATS:detest ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity80 a rdf:Statement ;
+    rdf:object BATS:loathe ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity81 a rdf:Statement ;
+    rdf:object BATS:abominate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity82 a rdf:Statement ;
+    rdf:object BATS:execrate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity83 a rdf:Statement ;
+    rdf:object BATS:contemn ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity84 a rdf:Statement ;
+    rdf:object BATS:despise ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity85 a rdf:Statement ;
+    rdf:object BATS:scorn ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity86 a rdf:Statement ;
+    rdf:object BATS:disdain ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:dislike ;
+    BATS:rank 10 .
+
+BATS:abhor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "abhor"@en .
+
+BATS:abominate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "abominate"@en .
+
+BATS:contemn a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "contemn"@en .
+
+BATS:despise a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "despise"@en .
+
+BATS:detest a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "detest"@en .
+
+BATS:disdain a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "disdain"@en .
+
+BATS:execrate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "execrate"@en .
+
+BATS:hate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hate"@en .
+
+BATS:loathe a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "loathe"@en .
+
+BATS:scorn a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scorn"@en .
+
+BATS:dislike a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dislike"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity87 a rdf:Statement ;
+    rdf:object BATS:sleep ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:doze ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity88 a rdf:Statement ;
+    rdf:object BATS:slumber ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:doze ;
+    BATS:rank 2 .
+
+BATS:sleep a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sleep"@en .
+
+BATS:slumber a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "slumber"@en .
+
+BATS:doze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "doze"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity89 a rdf:Statement ;
+    rdf:object BATS:rain ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:drizzle ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity90 a rdf:Statement ;
+    rdf:object BATS:shower ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:drizzle ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity91 a rdf:Statement ;
+    rdf:object BATS:raifall ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:drizzle ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity92 a rdf:Statement ;
+    rdf:object BATS:deluge ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:drizzle ;
+    BATS:rank 4 .
+
+BATS:deluge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "deluge"@en .
+
+BATS:raifall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "raifall"@en .
+
+BATS:rain a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rain"@en .
+
+BATS:shower a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shower"@en .
+
+BATS:drizzle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drizzle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity93 a rdf:Statement ;
+    rdf:object BATS:agitated ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:excited ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity94 a rdf:Statement ;
+    rdf:object BATS:nervous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:excited ;
+    BATS:rank 2 .
+
+BATS:agitated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "agitated"@en .
+
+BATS:nervous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nervous"@en .
+
+BATS:excited a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "excited"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity95 a rdf:Statement ;
+    rdf:object BATS:fanatism ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:faith ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity96 a rdf:Statement ;
+    rdf:object BATS:fanaticism ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:faith ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity97 a rdf:Statement ;
+    rdf:object BATS:zealotry ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:faith ;
+    BATS:rank 3 .
+
+BATS:fanaticism a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fanaticism"@en .
+
+BATS:fanatism a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fanatism"@en .
+
+BATS:zealotry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "zealotry"@en .
+
+BATS:faith a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "faith"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity100 a rdf:Statement ;
+    rdf:object BATS:chortle ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity101 a rdf:Statement ;
+    rdf:object BATS:guffaw ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity102 a rdf:Statement ;
+    rdf:object BATS:snicker ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity103 a rdf:Statement ;
+    rdf:object BATS:snigger ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity104 a rdf:Statement ;
+    rdf:object BATS:titter ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity105 a rdf:Statement ;
+    rdf:object BATS:roar ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity98 a rdf:Statement ;
+    rdf:object BATS:laugh ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity99 a rdf:Statement ;
+    rdf:object BATS:guffaw ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:giggle ;
+    BATS:rank 2 .
+
+BATS:chortle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chortle"@en .
+
+BATS:laugh a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "laugh"@en .
+
+BATS:roar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "roar"@en .
+
+BATS:snicker a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snicker"@en .
+
+BATS:snigger a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snigger"@en .
+
+BATS:titter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "titter"@en .
+
+BATS:guffaw a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "guffaw"@en .
+
+BATS:giggle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "giggle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity106 a rdf:Statement ;
+    rdf:object BATS:remorseful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:guilty ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity107 a rdf:Statement ;
+    rdf:object BATS:sorrowful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:guilty ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity108 a rdf:Statement ;
+    rdf:object BATS:unworthy ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:guilty ;
+    BATS:rank 3 .
+
+BATS:remorseful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "remorseful"@en .
+
+BATS:sorrowful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sorrowful"@en .
+
+BATS:unworthy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unworthy"@en .
+
+BATS:guilty a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "guilty"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity109 a rdf:Statement ;
+    rdf:object BATS:ecstatic ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:happy ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity110 a rdf:Statement ;
+    rdf:object BATS:enraptured ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:happy ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity111 a rdf:Statement ;
+    rdf:object BATS:rapturous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:happy ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity112 a rdf:Statement ;
+    rdf:object BATS:rapt ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:happy ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity113 a rdf:Statement ;
+    rdf:object BATS:rhapsodic ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:happy ;
+    BATS:rank 5 .
+
+BATS:ecstatic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ecstatic"@en .
+
+BATS:enraptured a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "enraptured"@en .
+
+BATS:rapt a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rapt"@en .
+
+BATS:rapturous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rapturous"@en .
+
+BATS:rhapsodic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rhapsodic"@en .
+
+BATS:happy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "happy"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity114 a rdf:Statement ;
+    rdf:object BATS:palace ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:house ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity115 a rdf:Statement ;
+    rdf:object BATS:castle ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:house ;
+    BATS:rank 2 .
+
+BATS:castle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "castle"@en .
+
+BATS:palace a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "palace"@en .
+
+BATS:house a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "house"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity116 a rdf:Statement ;
+    rdf:object BATS:starving ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:hungry ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity117 a rdf:Statement ;
+    rdf:object BATS:famished ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:hungry ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity118 a rdf:Statement ;
+    rdf:object BATS:peckish ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:hungry ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity119 a rdf:Statement ;
+    rdf:object BATS:ravenous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:hungry ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity120 a rdf:Statement ;
+    rdf:object BATS:starved ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:hungry ;
+    BATS:rank 5 .
+
+BATS:famished a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "famished"@en .
+
+BATS:peckish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "peckish"@en .
+
+BATS:ravenous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ravenous"@en .
+
+BATS:starved a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "starved"@en .
+
+BATS:starving a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "starving"@en .
+
+BATS:hungry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hungry"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity121 a rdf:Statement ;
+    rdf:object BATS:pamper ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:indulge ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity122 a rdf:Statement ;
+    rdf:object BATS:spoil ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:indulge ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity123 a rdf:Statement ;
+    rdf:object BATS:coddle ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:indulge ;
+    BATS:rank 3 .
+
+BATS:coddle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "coddle"@en .
+
+BATS:pamper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pamper"@en .
+
+BATS:spoil a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "spoil"@en .
+
+BATS:indulge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "indulge"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity124 a rdf:Statement ;
+    rdf:object BATS:exciting ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity125 a rdf:Statement ;
+    rdf:object BATS:exhilarant ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity126 a rdf:Statement ;
+    rdf:object BATS:exhilarating ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity127 a rdf:Statement ;
+    rdf:object BATS:exhilarative ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity128 a rdf:Statement ;
+    rdf:object BATS:eye-popping ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity129 a rdf:Statement ;
+    rdf:object BATS:inspiring ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity130 a rdf:Statement ;
+    rdf:object BATS:intoxicating ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity131 a rdf:Statement ;
+    rdf:object BATS:rousing ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity132 a rdf:Statement ;
+    rdf:object BATS:stimulating ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity133 a rdf:Statement ;
+    rdf:object BATS:stirring ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 10 .
+
+BATS:synonyms_intensity134 a rdf:Statement ;
+    rdf:object BATS:arresting ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 11 .
+
+BATS:synonyms_intensity135 a rdf:Statement ;
+    rdf:object BATS:interesting ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 12 .
+
+BATS:synonyms_intensity136 a rdf:Statement ;
+    rdf:object BATS:intriguing ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 13 .
+
+BATS:synonyms_intensity137 a rdf:Statement ;
+    rdf:object BATS:moving ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 14 .
+
+BATS:synonyms_intensity138 a rdf:Statement ;
+    rdf:object BATS:provocative ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 15 .
+
+BATS:synonyms_intensity139 a rdf:Statement ;
+    rdf:object BATS:heady ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 16 .
+
+BATS:synonyms_intensity140 a rdf:Statement ;
+    rdf:object BATS:thrilling ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:interesting ;
+    BATS:rank 17 .
+
+BATS:arresting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "arresting"@en .
+
+BATS:exciting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exciting"@en .
+
+BATS:exhilarant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exhilarant"@en .
+
+BATS:exhilarating a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exhilarating"@en .
+
+BATS:exhilarative a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exhilarative"@en .
+
+BATS:eye-popping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "eye-popping"@en .
+
+BATS:heady a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "heady"@en .
+
+BATS:inspiring a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inspiring"@en .
+
+BATS:intoxicating a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "intoxicating"@en .
+
+BATS:intriguing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "intriguing"@en .
+
+BATS:moving a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "moving"@en .
+
+BATS:provocative a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "provocative"@en .
+
+BATS:rousing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rousing"@en .
+
+BATS:stimulating a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stimulating"@en .
+
+BATS:stirring a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stirring"@en .
+
+BATS:thrilling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "thrilling"@en .
+
+BATS:interesting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "interesting"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity141 a rdf:Statement ;
+    rdf:object BATS:enrage ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity142 a rdf:Statement ;
+    rdf:object BATS:incense ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity143 a rdf:Statement ;
+    rdf:object BATS:infuriate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity144 a rdf:Statement ;
+    rdf:object BATS:ire ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity145 a rdf:Statement ;
+    rdf:object BATS:mad ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity146 a rdf:Statement ;
+    rdf:object BATS:madden ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity147 a rdf:Statement ;
+    rdf:object BATS:steam ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity148 a rdf:Statement ;
+    rdf:object BATS:umbrage ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:irritate ;
+    BATS:rank 8 .
+
+BATS:enrage a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "enrage"@en .
+
+BATS:incense a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "incense"@en .
+
+BATS:infuriate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "infuriate"@en .
+
+BATS:ire a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ire"@en .
+
+BATS:mad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mad"@en .
+
+BATS:madden a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "madden"@en .
+
+BATS:steam a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "steam"@en .
+
+BATS:umbrage a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "umbrage"@en .
+
+BATS:irritate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "irritate"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity149 a rdf:Statement ;
+    rdf:object BATS:run ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:jog ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity150 a rdf:Statement ;
+    rdf:object BATS:scarper ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:jog ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity151 a rdf:Statement ;
+    rdf:object BATS:flee ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:jog ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity152 a rdf:Statement ;
+    rdf:object BATS:fly ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:jog ;
+    BATS:rank 4 .
+
+BATS:flee a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flee"@en .
+
+BATS:fly a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fly"@en .
+
+BATS:run a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "run"@en .
+
+BATS:scarper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scarper"@en .
+
+BATS:jog a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jog"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity153 a rdf:Statement ;
+    rdf:object BATS:sea ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:lake ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity154 a rdf:Statement ;
+    rdf:object BATS:ocean ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:lake ;
+    BATS:rank 2 .
+
+BATS:ocean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ocean"@en .
+
+BATS:sea a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sea"@en .
+
+BATS:lake a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lake"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity155 a rdf:Statement ;
+    rdf:object BATS:love ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:like ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity156 a rdf:Statement ;
+    rdf:object BATS:care ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:like ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity157 a rdf:Statement ;
+    rdf:object BATS:fond ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:like ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity158 a rdf:Statement ;
+    rdf:object BATS:crush ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:like ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity159 a rdf:Statement ;
+    rdf:object BATS:infatuate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:like ;
+    BATS:rank 5 .
+
+BATS:care a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "care"@en .
+
+BATS:crush a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "crush"@en .
+
+BATS:fond a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fond"@en .
+
+BATS:infatuate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "infatuate"@en .
+
+BATS:love a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "love"@en .
+
+BATS:like a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "like"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity160 a rdf:Statement ;
+    rdf:object BATS:adore ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity161 a rdf:Statement ;
+    rdf:object BATS:fetishize ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity162 a rdf:Statement ;
+    rdf:object BATS:idolize ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity163 a rdf:Statement ;
+    rdf:object BATS:idolise ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity164 a rdf:Statement ;
+    rdf:object BATS:worship ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity165 a rdf:Statement ;
+    rdf:object BATS:hero-worship ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity166 a rdf:Statement ;
+    rdf:object BATS:revere ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:love ;
+    BATS:rank 7 .
+
+BATS:adore a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "adore"@en .
+
+BATS:fetishize a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fetishize"@en .
+
+BATS:hero-worship a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hero-worship"@en .
+
+BATS:idolise a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "idolise"@en .
+
+BATS:idolize a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "idolize"@en .
+
+BATS:revere a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "revere"@en .
+
+BATS:worship a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "worship"@en .
+
+BATS:love a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "love"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity167 a rdf:Statement ;
+    rdf:object BATS:gorilla ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:monkey ;
+    BATS:rank 1 .
+
+BATS:gorilla a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gorilla"@en .
+
+BATS:monkey a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "monkey"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity168 a rdf:Statement ;
+    rdf:object BATS:sleep ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:nap ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity169 a rdf:Statement ;
+    rdf:object BATS:slumber ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:nap ;
+    BATS:rank 2 .
+
+BATS:sleep a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sleep"@en .
+
+BATS:slumber a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "slumber"@en .
+
+BATS:nap a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nap"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity170 a rdf:Statement ;
+    rdf:object BATS:essential ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:necessary ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity171 a rdf:Statement ;
+    rdf:object BATS:indispensable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:necessary ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity172 a rdf:Statement ;
+    rdf:object BATS:vital ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:necessary ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity173 a rdf:Statement ;
+    rdf:object BATS:required ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:necessary ;
+    BATS:rank 4 .
+
+BATS:essential a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "essential"@en .
+
+BATS:indispensable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "indispensable"@en .
+
+BATS:required a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "required"@en .
+
+BATS:vital a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "vital"@en .
+
+BATS:necessary a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "necessary"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity174 a rdf:Statement ;
+    rdf:object BATS:averse ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity175 a rdf:Statement ;
+    rdf:object BATS:antipathetic ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity176 a rdf:Statement ;
+    rdf:object BATS:antipathetical ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity177 a rdf:Statement ;
+    rdf:object BATS:indisposed ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity178 a rdf:Statement ;
+    rdf:object BATS:loath ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity179 a rdf:Statement ;
+    rdf:object BATS:loth ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:opposed ;
+    BATS:rank 6 .
+
+BATS:antipathetic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "antipathetic"@en .
+
+BATS:antipathetical a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "antipathetical"@en .
+
+BATS:averse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "averse"@en .
+
+BATS:indisposed a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "indisposed"@en .
+
+BATS:loath a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "loath"@en .
+
+BATS:loth a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "loth"@en .
+
+BATS:opposed a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "opposed"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity180 a rdf:Statement ;
+    rdf:object BATS:torment ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:pain ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity181 a rdf:Statement ;
+    rdf:object BATS:torture ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:pain ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity182 a rdf:Statement ;
+    rdf:object BATS:agony ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:pain ;
+    BATS:rank 3 .
+
+BATS:agony a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "agony"@en .
+
+BATS:torment a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "torment"@en .
+
+BATS:torture a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "torture"@en .
+
+BATS:pain a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pain"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity183 a rdf:Statement ;
+    rdf:object BATS:horse ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:pony ;
+    BATS:rank 1 .
+
+BATS:horse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "horse"@en .
+
+BATS:pony a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pony"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity184 a rdf:Statement ;
+    rdf:object BATS:afflicted ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:poorly ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity185 a rdf:Statement ;
+    rdf:object BATS:sick ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:poorly ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity186 a rdf:Statement ;
+    rdf:object BATS:ill ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:poorly ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity187 a rdf:Statement ;
+    rdf:object BATS:stricken ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:poorly ;
+    BATS:rank 4 .
+
+BATS:afflicted a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afflicted"@en .
+
+BATS:ill a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ill"@en .
+
+BATS:sick a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sick"@en .
+
+BATS:stricken a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stricken"@en .
+
+BATS:poorly a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "poorly"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity188 a rdf:Statement ;
+    rdf:object BATS:deluge ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:rain ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity189 a rdf:Statement ;
+    rdf:object BATS:shower ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:rain ;
+    BATS:rank 2 .
+
+BATS:deluge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "deluge"@en .
+
+BATS:shower a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shower"@en .
+
+BATS:rain a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rain"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity190 a rdf:Statement ;
+    rdf:object BATS:desparate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity191 a rdf:Statement ;
+    rdf:object BATS:despondent ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity192 a rdf:Statement ;
+    rdf:object BATS:despairing ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity193 a rdf:Statement ;
+    rdf:object BATS:desponding ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity194 a rdf:Statement ;
+    rdf:object BATS:forlorn ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity195 a rdf:Statement ;
+    rdf:object BATS:hopeless ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity196 a rdf:Statement ;
+    rdf:object BATS:melancholy ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sad ;
+    BATS:rank 7 .
+
+BATS:despairing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "despairing"@en .
+
+BATS:desparate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "desparate"@en .
+
+BATS:despondent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "despondent"@en .
+
+BATS:desponding a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "desponding"@en .
+
+BATS:forlorn a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forlorn"@en .
+
+BATS:hopeless a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hopeless"@en .
+
+BATS:melancholy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "melancholy"@en .
+
+BATS:sad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sad"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity197 a rdf:Statement ;
+    rdf:object BATS:ocean ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sea ;
+    BATS:rank 1 .
+
+BATS:ocean a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ocean"@en .
+
+BATS:sea a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sea"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity198 a rdf:Statement ;
+    rdf:object BATS:meal ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:snack ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity199 a rdf:Statement ;
+    rdf:object BATS:eat ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:snack ;
+    BATS:rank 2 .
+
+BATS:eat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "eat"@en .
+
+BATS:meal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "meal"@en .
+
+BATS:snack a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snack"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity200 a rdf:Statement ;
+    rdf:object BATS:pneumonia ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:sniffles ;
+    BATS:rank 1 .
+
+BATS:pneumonia a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pneumonia"@en .
+
+BATS:sniffles a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sniffles"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity201 a rdf:Statement ;
+    rdf:object BATS:immediately ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:soon ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity202 a rdf:Statement ;
+    rdf:object BATS:promptly ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:soon ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity203 a rdf:Statement ;
+    rdf:object BATS:straightaway ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:soon ;
+    BATS:rank 3 .
+
+BATS:immediately a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "immediately"@en .
+
+BATS:promptly a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "promptly"@en .
+
+BATS:straightaway a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "straightaway"@en .
+
+BATS:soon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soon"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity204 a rdf:Statement ;
+    rdf:object BATS:powerful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:strong ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity205 a rdf:Statement ;
+    rdf:object BATS:forceful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:strong ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity206 a rdf:Statement ;
+    rdf:object BATS:super ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:strong ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity207 a rdf:Statement ;
+    rdf:object BATS:potent ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:strong ;
+    BATS:rank 4 .
+
+BATS:forceful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forceful"@en .
+
+BATS:potent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "potent"@en .
+
+BATS:powerful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "powerful"@en .
+
+BATS:super a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "super"@en .
+
+BATS:strong a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "strong"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity208 a rdf:Statement ;
+    rdf:object BATS:delicious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity209 a rdf:Statement ;
+    rdf:object BATS:delectable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity210 a rdf:Statement ;
+    rdf:object BATS:luscious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity211 a rdf:Statement ;
+    rdf:object BATS:pleasant-tasting ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity212 a rdf:Statement ;
+    rdf:object BATS:scrumptious ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity213 a rdf:Statement ;
+    rdf:object BATS:toothsome ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity214 a rdf:Statement ;
+    rdf:object BATS:yummy ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity215 a rdf:Statement ;
+    rdf:object BATS:mouth-watering ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity216 a rdf:Statement ;
+    rdf:object BATS:ambrosial ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity217 a rdf:Statement ;
+    rdf:object BATS:heavenly ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tasty ;
+    BATS:rank 10 .
+
+BATS:ambrosial a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ambrosial"@en .
+
+BATS:delectable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "delectable"@en .
+
+BATS:delicious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "delicious"@en .
+
+BATS:heavenly a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "heavenly"@en .
+
+BATS:luscious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "luscious"@en .
+
+BATS:mouth-watering a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mouth-watering"@en .
+
+BATS:pleasant-tasting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pleasant-tasting"@en .
+
+BATS:scrumptious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scrumptious"@en .
+
+BATS:toothsome a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "toothsome"@en .
+
+BATS:yummy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "yummy"@en .
+
+BATS:tasty a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tasty"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity218 a rdf:Statement ;
+    rdf:object BATS:exhausted ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tired ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity219 a rdf:Statement ;
+    rdf:object BATS:drained ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:tired ;
+    BATS:rank 2 .
+
+BATS:drained a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drained"@en .
+
+BATS:exhausted a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exhausted"@en .
+
+BATS:tired a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tired"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity220 a rdf:Statement ;
+    rdf:object BATS:tragic ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity221 a rdf:Statement ;
+    rdf:object BATS:woeful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity222 a rdf:Statement ;
+    rdf:object BATS:grievous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity223 a rdf:Statement ;
+    rdf:object BATS:wretched ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity224 a rdf:Statement ;
+    rdf:object BATS:miserable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity225 a rdf:Statement ;
+    rdf:object BATS:awful ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity226 a rdf:Statement ;
+    rdf:object BATS:lamentable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity227 a rdf:Statement ;
+    rdf:object BATS:regrettable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity228 a rdf:Statement ;
+    rdf:object BATS:desperate ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity229 a rdf:Statement ;
+    rdf:object BATS:hopeless ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 10 .
+
+BATS:synonyms_intensity230 a rdf:Statement ;
+    rdf:object BATS:disastrous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unfortunate ;
+    BATS:rank 11 .
+
+BATS:awful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "awful"@en .
+
+BATS:desperate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "desperate"@en .
+
+BATS:disastrous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "disastrous"@en .
+
+BATS:grievous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grievous"@en .
+
+BATS:hopeless a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hopeless"@en .
+
+BATS:lamentable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lamentable"@en .
+
+BATS:miserable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "miserable"@en .
+
+BATS:regrettable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "regrettable"@en .
+
+BATS:tragic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tragic"@en .
+
+BATS:woeful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "woeful"@en .
+
+BATS:wretched a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wretched"@en .
+
+BATS:unfortunate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unfortunate"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity231 a rdf:Statement ;
+    rdf:object BATS:miserable ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unhappy ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity232 a rdf:Statement ;
+    rdf:object BATS:suffering ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unhappy ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity233 a rdf:Statement ;
+    rdf:object BATS:wretched ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:unhappy ;
+    BATS:rank 3 .
+
+BATS:miserable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "miserable"@en .
+
+BATS:suffering a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "suffering"@en .
+
+BATS:wretched a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wretched"@en .
+
+BATS:unhappy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unhappy"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity234 a rdf:Statement ;
+    rdf:object BATS:crave ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:want ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity235 a rdf:Statement ;
+    rdf:object BATS:hunger ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:want ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity236 a rdf:Statement ;
+    rdf:object BATS:thirst ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:want ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity237 a rdf:Statement ;
+    rdf:object BATS:starve ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:want ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity238 a rdf:Statement ;
+    rdf:object BATS:lust ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:want ;
+    BATS:rank 5 .
+
+BATS:crave a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "crave"@en .
+
+BATS:hunger a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hunger"@en .
+
+BATS:lust a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lust"@en .
+
+BATS:starve a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "starve"@en .
+
+BATS:thirst a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "thirst"@en .
+
+BATS:want a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "want"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity239 a rdf:Statement ;
+    rdf:object BATS:hot ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity240 a rdf:Statement ;
+    rdf:object BATS:fiery ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity241 a rdf:Statement ;
+    rdf:object BATS:flaming ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity242 a rdf:Statement ;
+    rdf:object BATS:heated ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity243 a rdf:Statement ;
+    rdf:object BATS:red-hot ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity244 a rdf:Statement ;
+    rdf:object BATS:sizzling ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 6 .
+
+BATS:synonyms_intensity245 a rdf:Statement ;
+    rdf:object BATS:sensual ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 7 .
+
+BATS:synonyms_intensity246 a rdf:Statement ;
+    rdf:object BATS:sultry ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 8 .
+
+BATS:synonyms_intensity247 a rdf:Statement ;
+    rdf:object BATS:torrid ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 9 .
+
+BATS:synonyms_intensity248 a rdf:Statement ;
+    rdf:object BATS:white-hot ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:warm ;
+    BATS:rank 10 .
+
+BATS:fiery a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fiery"@en .
+
+BATS:flaming a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flaming"@en .
+
+BATS:heated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "heated"@en .
+
+BATS:hot a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hot"@en .
+
+BATS:red-hot a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "red-hot"@en .
+
+BATS:sensual a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sensual"@en .
+
+BATS:sizzling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sizzling"@en .
+
+BATS:sultry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sultry"@en .
+
+BATS:torrid a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "torrid"@en .
+
+BATS:white-hot a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "white-hot"@en .
+
+BATS:warm a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "warm"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_intensity249 a rdf:Statement ;
+    rdf:object BATS:flourishing ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 1 .
+
+BATS:synonyms_intensity250 a rdf:Statement ;
+    rdf:object BATS:robust ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 2 .
+
+BATS:synonyms_intensity251 a rdf:Statement ;
+    rdf:object BATS:booming ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 3 .
+
+BATS:synonyms_intensity252 a rdf:Statement ;
+    rdf:object BATS:prospering ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 4 .
+
+BATS:synonyms_intensity253 a rdf:Statement ;
+    rdf:object BATS:prosperous ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 5 .
+
+BATS:synonyms_intensity254 a rdf:Statement ;
+    rdf:object BATS:thriving ;
+    rdf:predicate BATS:synonyms_intensity ;
+    rdf:subject BATS:well ;
+    BATS:rank 6 .
+
+BATS:booming a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "booming"@en .
+
+BATS:flourishing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flourishing"@en .
+
+BATS:prospering a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "prospering"@en .
+
+BATS:prosperous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "prosperous"@en .
+
+BATS:robust a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "robust"@en .
+
+BATS:thriving a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "thriving"@en .
+
+BATS:well a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "well"@en .
+

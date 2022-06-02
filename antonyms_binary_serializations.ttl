@@ -1,0 +1,2110 @@
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary01 a rdf:Statement ;
+    rdf:object BATS:before ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:after ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary02 a rdf:Statement ;
+    rdf:object BATS:earlier ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:after ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary03 a rdf:Statement ;
+    rdf:object BATS:previously ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:after ;
+    BATS:rank 3 .
+
+BATS:before a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "before"@en .
+
+BATS:earlier a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "earlier"@en .
+
+BATS:previously a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "previously"@en .
+
+BATS:after a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "after"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary04 a rdf:Statement ;
+    rdf:object BATS:behind ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:ahead ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary05 a rdf:Statement ;
+    rdf:object BATS:rear ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:ahead ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary06 a rdf:Statement ;
+    rdf:object BATS:after ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:ahead ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary07 a rdf:Statement ;
+    rdf:object BATS:tail ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:ahead ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary08 a rdf:Statement ;
+    rdf:object BATS:beforehand ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:ahead ;
+    BATS:rank 5 .
+
+BATS:after a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "after"@en .
+
+BATS:beforehand a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beforehand"@en .
+
+BATS:behind a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "behind"@en .
+
+BATS:rear a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rear"@en .
+
+BATS:tail a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tail"@en .
+
+BATS:ahead a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ahead"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary09 a rdf:Statement ;
+    rdf:object BATS:posterior ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:anterior ;
+    BATS:rank 1 .
+
+BATS:anterior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "anterior"@en .
+
+BATS:posterior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "posterior"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary10 a rdf:Statement ;
+    rdf:object BATS:forward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary11 a rdf:Statement ;
+    rdf:object BATS:forwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary12 a rdf:Statement ;
+    rdf:object BATS:frontward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary13 a rdf:Statement ;
+    rdf:object BATS:frontwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary14 a rdf:Statement ;
+    rdf:object BATS:forrad ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary15 a rdf:Statement ;
+    rdf:object BATS:forrard ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 6 .
+
+BATS:antonyms_binary16 a rdf:Statement ;
+    rdf:object BATS:forth ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 7 .
+
+BATS:antonyms_binary17 a rdf:Statement ;
+    rdf:object BATS:onward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:backward ;
+    BATS:rank 8 .
+
+BATS:forrad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forrad"@en .
+
+BATS:forrard a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forrard"@en .
+
+BATS:forth a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forth"@en .
+
+BATS:forward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forward"@en .
+
+BATS:forwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forwards"@en .
+
+BATS:frontward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "frontward"@en .
+
+BATS:frontwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "frontwards"@en .
+
+BATS:onward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "onward"@en .
+
+BATS:backward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "backward"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary18 a rdf:Statement ;
+    rdf:object BATS:after ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary19 a rdf:Statement ;
+    rdf:object BATS:subsequently ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary20 a rdf:Statement ;
+    rdf:object BATS:later ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary21 a rdf:Statement ;
+    rdf:object BATS:afterwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary22 a rdf:Statement ;
+    rdf:object BATS:afterward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary23 a rdf:Statement ;
+    rdf:object BATS:ahead ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:before ;
+    BATS:rank 6 .
+
+BATS:after a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "after"@en .
+
+BATS:afterward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afterward"@en .
+
+BATS:afterwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afterwards"@en .
+
+BATS:ahead a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ahead"@en .
+
+BATS:later a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "later"@en .
+
+BATS:subsequently a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "subsequently"@en .
+
+BATS:before a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "before"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary24 a rdf:Statement ;
+    rdf:object BATS:end ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary25 a rdf:Statement ;
+    rdf:object BATS:terminal ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary26 a rdf:Statement ;
+    rdf:object BATS:ending ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary27 a rdf:Statement ;
+    rdf:object BATS:last ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary28 a rdf:Statement ;
+    rdf:object BATS:final ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary29 a rdf:Statement ;
+    rdf:object BATS:finish ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 6 .
+
+BATS:antonyms_binary30 a rdf:Statement ;
+    rdf:object BATS:finale ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 7 .
+
+BATS:antonyms_binary31 a rdf:Statement ;
+    rdf:object BATS:conclusion ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:beginning ;
+    BATS:rank 8 .
+
+BATS:conclusion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "conclusion"@en .
+
+BATS:end a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "end"@en .
+
+BATS:ending a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ending"@en .
+
+BATS:final a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "final"@en .
+
+BATS:finale a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "finale"@en .
+
+BATS:finish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "finish"@en .
+
+BATS:last a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "last"@en .
+
+BATS:terminal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "terminal"@en .
+
+BATS:beginning a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beginning"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary32 a rdf:Statement ;
+    rdf:object BATS:above ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:below ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary33 a rdf:Statement ;
+    rdf:object BATS:higher ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:below ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary34 a rdf:Statement ;
+    rdf:object BATS:up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:below ;
+    BATS:rank 3 .
+
+BATS:above a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "above"@en .
+
+BATS:higher a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "higher"@en .
+
+BATS:up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "up"@en .
+
+BATS:below a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "below"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary35 a rdf:Statement ;
+    rdf:object BATS:descend ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary36 a rdf:Statement ;
+    rdf:object BATS:declivitous ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary37 a rdf:Statement ;
+    rdf:object BATS:downhill ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary38 a rdf:Statement ;
+    rdf:object BATS:downward-sloping ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary39 a rdf:Statement ;
+    rdf:object BATS:degressive ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary40 a rdf:Statement ;
+    rdf:object BATS:descendant ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 6 .
+
+BATS:antonyms_binary41 a rdf:Statement ;
+    rdf:object BATS:descendent ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 7 .
+
+BATS:antonyms_binary42 a rdf:Statement ;
+    rdf:object BATS:down ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 8 .
+
+BATS:antonyms_binary43 a rdf:Statement ;
+    rdf:object BATS:downward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 9 .
+
+BATS:antonyms_binary44 a rdf:Statement ;
+    rdf:object BATS:downward-arching ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 10 .
+
+BATS:antonyms_binary45 a rdf:Statement ;
+    rdf:object BATS:drizzling ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 11 .
+
+BATS:antonyms_binary46 a rdf:Statement ;
+    rdf:object BATS:dropping ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 12 .
+
+BATS:antonyms_binary47 a rdf:Statement ;
+    rdf:object BATS:falling ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 13 .
+
+BATS:antonyms_binary48 a rdf:Statement ;
+    rdf:object BATS:raining ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:climb ;
+    BATS:rank 14 .
+
+BATS:declivitous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "declivitous"@en .
+
+BATS:degressive a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "degressive"@en .
+
+BATS:descend a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "descend"@en .
+
+BATS:descendant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "descendant"@en .
+
+BATS:descendent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "descendent"@en .
+
+BATS:down a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "down"@en .
+
+BATS:downhill a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downhill"@en .
+
+BATS:downward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downward"@en .
+
+BATS:downward-arching a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downward-arching"@en .
+
+BATS:downward-sloping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downward-sloping"@en .
+
+BATS:drizzling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drizzling"@en .
+
+BATS:dropping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dropping"@en .
+
+BATS:falling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "falling"@en .
+
+BATS:raining a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "raining"@en .
+
+BATS:climb a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "climb"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary49 a rdf:Statement ;
+    rdf:object BATS:alive ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dead ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary50 a rdf:Statement ;
+    rdf:object BATS:living ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dead ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary51 a rdf:Statement ;
+    rdf:object BATS:live ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dead ;
+    BATS:rank 3 .
+
+BATS:alive a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "alive"@en .
+
+BATS:live a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "live"@en .
+
+BATS:living a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "living"@en .
+
+BATS:dead a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dead"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary52 a rdf:Statement ;
+    rdf:object BATS:increment ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:decrement ;
+    BATS:rank 1 .
+
+BATS:decrement a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "decrement"@en .
+
+BATS:increment a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "increment"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary53 a rdf:Statement ;
+    rdf:object BATS:ascend ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary54 a rdf:Statement ;
+    rdf:object BATS:climb ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary55 a rdf:Statement ;
+    rdf:object BATS:rise ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary56 a rdf:Statement ;
+    rdf:object BATS:upward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary57 a rdf:Statement ;
+    rdf:object BATS:ascendent ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary58 a rdf:Statement ;
+    rdf:object BATS:ascendant ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:descend ;
+    BATS:rank 6 .
+
+BATS:ascend a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ascend"@en .
+
+BATS:ascendant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ascendant"@en .
+
+BATS:ascendent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ascendent"@en .
+
+BATS:climb a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "climb"@en .
+
+BATS:rise a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rise"@en .
+
+BATS:upward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upward"@en .
+
+BATS:descend a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "descend"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary59 a rdf:Statement ;
+    rdf:object BATS:emerge ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dive ;
+    BATS:rank 1 .
+
+BATS:dive a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dive"@en .
+
+BATS:emerge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "emerge"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary60 a rdf:Statement ;
+    rdf:object BATS:up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary61 a rdf:Statement ;
+    rdf:object BATS:above ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary62 a rdf:Statement ;
+    rdf:object BATS:ahead ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary63 a rdf:Statement ;
+    rdf:object BATS:lead ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary64 a rdf:Statement ;
+    rdf:object BATS:leading ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary65 a rdf:Statement ;
+    rdf:object BATS:aweigh ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 6 .
+
+BATS:antonyms_binary66 a rdf:Statement ;
+    rdf:object BATS:dormie ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 7 .
+
+BATS:antonyms_binary67 a rdf:Statement ;
+    rdf:object BATS:dormy ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 8 .
+
+BATS:antonyms_binary68 a rdf:Statement ;
+    rdf:object BATS:heavenward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 9 .
+
+BATS:antonyms_binary69 a rdf:Statement ;
+    rdf:object BATS:skyward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 10 .
+
+BATS:antonyms_binary70 a rdf:Statement ;
+    rdf:object BATS:risen ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 11 .
+
+BATS:antonyms_binary71 a rdf:Statement ;
+    rdf:object BATS:sprouted ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 12 .
+
+BATS:antonyms_binary72 a rdf:Statement ;
+    rdf:object BATS:upbound ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 13 .
+
+BATS:antonyms_binary73 a rdf:Statement ;
+    rdf:object BATS:upfield ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 14 .
+
+BATS:antonyms_binary74 a rdf:Statement ;
+    rdf:object BATS:upward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:down ;
+    BATS:rank 15 .
+
+BATS:above a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "above"@en .
+
+BATS:ahead a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ahead"@en .
+
+BATS:aweigh a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aweigh"@en .
+
+BATS:dormie a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dormie"@en .
+
+BATS:dormy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dormy"@en .
+
+BATS:heavenward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "heavenward"@en .
+
+BATS:lead a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lead"@en .
+
+BATS:leading a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "leading"@en .
+
+BATS:risen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "risen"@en .
+
+BATS:skyward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "skyward"@en .
+
+BATS:sprouted a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sprouted"@en .
+
+BATS:up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "up"@en .
+
+BATS:upbound a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upbound"@en .
+
+BATS:upfield a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upfield"@en .
+
+BATS:upward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upward"@en .
+
+BATS:down a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "down"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary75 a rdf:Statement ;
+    rdf:object BATS:upslope ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:downslope ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary76 a rdf:Statement ;
+    rdf:object BATS:ascent ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:downslope ;
+    BATS:rank 2 .
+
+BATS:ascent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ascent"@en .
+
+BATS:upslope a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upslope"@en .
+
+BATS:downslope a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downslope"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary77 a rdf:Statement ;
+    rdf:object BATS:lift ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:drop ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary78 a rdf:Statement ;
+    rdf:object BATS:pick_up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:drop ;
+    BATS:rank 2 .
+
+BATS:lift a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lift"@en .
+
+BATS:pick_up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pick_up"@en .
+
+BATS:drop a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drop"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary79 a rdf:Statement ;
+    rdf:object BATS:static ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dynamic ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary80 a rdf:Statement ;
+    rdf:object BATS:still ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dynamic ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary81 a rdf:Statement ;
+    rdf:object BATS:unmoving ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dynamic ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary82 a rdf:Statement ;
+    rdf:object BATS:unchanging ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:dynamic ;
+    BATS:rank 4 .
+
+BATS:static a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "static"@en .
+
+BATS:still a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "still"@en .
+
+BATS:unchanging a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unchanging"@en .
+
+BATS:unmoving a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unmoving"@en .
+
+BATS:dynamic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dynamic"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary83 a rdf:Statement ;
+    rdf:object BATS:dismiss ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:employ ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary84 a rdf:Statement ;
+    rdf:object BATS:fire ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:employ ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary85 a rdf:Statement ;
+    rdf:object BATS:sack ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:employ ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary86 a rdf:Statement ;
+    rdf:object BATS:displace ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:employ ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary87 a rdf:Statement ;
+    rdf:object BATS:terminate ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:employ ;
+    BATS:rank 5 .
+
+BATS:dismiss a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dismiss"@en .
+
+BATS:displace a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "displace"@en .
+
+BATS:fire a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fire"@en .
+
+BATS:sack a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sack"@en .
+
+BATS:terminate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "terminate"@en .
+
+BATS:employ a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "employ"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary88 a rdf:Statement ;
+    rdf:object BATS:entrance ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:exit ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary89 a rdf:Statement ;
+    rdf:object BATS:entranceway ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:exit ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary90 a rdf:Statement ;
+    rdf:object BATS:entryway ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:exit ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary91 a rdf:Statement ;
+    rdf:object BATS:entry ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:exit ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary92 a rdf:Statement ;
+    rdf:object BATS:entree ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:exit ;
+    BATS:rank 5 .
+
+BATS:entrance a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entrance"@en .
+
+BATS:entranceway a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entranceway"@en .
+
+BATS:entree a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entree"@en .
+
+BATS:entry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entry"@en .
+
+BATS:entryway a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "entryway"@en .
+
+BATS:exit a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exit"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary93 a rdf:Statement ;
+    rdf:object BATS:rise ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:fall ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary94 a rdf:Statement ;
+    rdf:object BATS:upward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:fall ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary95 a rdf:Statement ;
+    rdf:object BATS:climb ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:fall ;
+    BATS:rank 3 .
+
+BATS:climb a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "climb"@en .
+
+BATS:rise a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rise"@en .
+
+BATS:upward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upward"@en .
+
+BATS:fall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fall"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary100 a rdf:Statement ;
+    rdf:object BATS:final ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary101 a rdf:Statement ;
+    rdf:object BATS:finish ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 6 .
+
+BATS:antonyms_binary102 a rdf:Statement ;
+    rdf:object BATS:finale ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 7 .
+
+BATS:antonyms_binary103 a rdf:Statement ;
+    rdf:object BATS:conclusion ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 8 .
+
+BATS:antonyms_binary96 a rdf:Statement ;
+    rdf:object BATS:last ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary97 a rdf:Statement ;
+    rdf:object BATS:end ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary98 a rdf:Statement ;
+    rdf:object BATS:terminal ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary99 a rdf:Statement ;
+    rdf:object BATS:ending ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:first ;
+    BATS:rank 4 .
+
+BATS:conclusion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "conclusion"@en .
+
+BATS:end a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "end"@en .
+
+BATS:ending a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ending"@en .
+
+BATS:final a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "final"@en .
+
+BATS:finale a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "finale"@en .
+
+BATS:finish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "finish"@en .
+
+BATS:last a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "last"@en .
+
+BATS:terminal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "terminal"@en .
+
+BATS:first a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "first"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary104 a rdf:Statement ;
+    rdf:object BATS:remember ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary105 a rdf:Statement ;
+    rdf:object BATS:retrieve ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary106 a rdf:Statement ;
+    rdf:object BATS:recall ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary107 a rdf:Statement ;
+    rdf:object BATS:call_back ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary108 a rdf:Statement ;
+    rdf:object BATS:call_up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary109 a rdf:Statement ;
+    rdf:object BATS:recollect ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forget ;
+    BATS:rank 6 .
+
+BATS:call_back a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "call_back"@en .
+
+BATS:call_up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "call_up"@en .
+
+BATS:recall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "recall"@en .
+
+BATS:recollect a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "recollect"@en .
+
+BATS:remember a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "remember"@en .
+
+BATS:retrieve a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "retrieve"@en .
+
+BATS:forget a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forget"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary110 a rdf:Statement ;
+    rdf:object BATS:backward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forward ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary111 a rdf:Statement ;
+    rdf:object BATS:back ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forward ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary112 a rdf:Statement ;
+    rdf:object BATS:backwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forward ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary113 a rdf:Statement ;
+    rdf:object BATS:rearward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forward ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary114 a rdf:Statement ;
+    rdf:object BATS:rearwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:forward ;
+    BATS:rank 5 .
+
+BATS:back a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "back"@en .
+
+BATS:backward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "backward"@en .
+
+BATS:backwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "backwards"@en .
+
+BATS:rearward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rearward"@en .
+
+BATS:rearwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rearwards"@en .
+
+BATS:forward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forward"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary115 a rdf:Statement ;
+    rdf:object BATS:back ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:front ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary116 a rdf:Statement ;
+    rdf:object BATS:rear ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:front ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary117 a rdf:Statement ;
+    rdf:object BATS:forepart ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:front ;
+    BATS:rank 3 .
+
+BATS:back a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "back"@en .
+
+BATS:forepart a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forepart"@en .
+
+BATS:rear a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rear"@en .
+
+BATS:front a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "front"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary118 a rdf:Statement ;
+    rdf:object BATS:out ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:in ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary119 a rdf:Statement ;
+    rdf:object BATS:outer ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:in ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary120 a rdf:Statement ;
+    rdf:object BATS:exterior ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:in ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary121 a rdf:Statement ;
+    rdf:object BATS:outside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:in ;
+    BATS:rank 4 .
+
+BATS:exterior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exterior"@en .
+
+BATS:out a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "out"@en .
+
+BATS:outer a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outer"@en .
+
+BATS:outside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outside"@en .
+
+BATS:in a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "in"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary122 a rdf:Statement ;
+    rdf:object BATS:outbound ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inbound ;
+    BATS:rank 1 .
+
+BATS:inbound a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inbound"@en .
+
+BATS:outbound a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outbound"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary123 a rdf:Statement ;
+    rdf:object BATS:exhale ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inhale ;
+    BATS:rank 1 .
+
+BATS:exhale a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exhale"@en .
+
+BATS:inhale a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inhale"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary124 a rdf:Statement ;
+    rdf:object BATS:output ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:input ;
+    BATS:rank 1 .
+
+BATS:input a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "input"@en .
+
+BATS:output a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "output"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary125 a rdf:Statement ;
+    rdf:object BATS:outside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inside ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary126 a rdf:Statement ;
+    rdf:object BATS:exterior ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inside ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary127 a rdf:Statement ;
+    rdf:object BATS:out ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inside ;
+    BATS:rank 3 .
+
+BATS:exterior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exterior"@en .
+
+BATS:out a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "out"@en .
+
+BATS:outside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outside"@en .
+
+BATS:inside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inside"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary128 a rdf:Statement ;
+    rdf:object BATS:exterior ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:interior ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary129 a rdf:Statement ;
+    rdf:object BATS:outdoor ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:interior ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary130 a rdf:Statement ;
+    rdf:object BATS:out-of-door ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:interior ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary131 a rdf:Statement ;
+    rdf:object BATS:outside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:interior ;
+    BATS:rank 4 .
+
+BATS:exterior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "exterior"@en .
+
+BATS:out-of-door a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "out-of-door"@en .
+
+BATS:outdoor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outdoor"@en .
+
+BATS:outside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outside"@en .
+
+BATS:interior a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "interior"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary132 a rdf:Statement ;
+    rdf:object BATS:external ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:internal ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary133 a rdf:Statement ;
+    rdf:object BATS:outer ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:internal ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary134 a rdf:Statement ;
+    rdf:object BATS:outside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:internal ;
+    BATS:rank 3 .
+
+BATS:external a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "external"@en .
+
+BATS:outer a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outer"@en .
+
+BATS:outside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outside"@en .
+
+BATS:internal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "internal"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary135 a rdf:Statement ;
+    rdf:object BATS:reverse ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inverse ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary136 a rdf:Statement ;
+    rdf:object BATS:reversion ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inverse ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary137 a rdf:Statement ;
+    rdf:object BATS:reversal ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inverse ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary138 a rdf:Statement ;
+    rdf:object BATS:turnabout ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inverse ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary139 a rdf:Statement ;
+    rdf:object BATS:turnaround ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:inverse ;
+    BATS:rank 5 .
+
+BATS:reversal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reversal"@en .
+
+BATS:reverse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reverse"@en .
+
+BATS:reversion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reversion"@en .
+
+BATS:turnabout a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "turnabout"@en .
+
+BATS:turnaround a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "turnaround"@en .
+
+BATS:inverse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inverse"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary140 a rdf:Statement ;
+    rdf:object BATS:immortal ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:mortal ;
+    BATS:rank 1 .
+
+BATS:immortal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "immortal"@en .
+
+BATS:mortal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mortal"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary141 a rdf:Statement ;
+    rdf:object BATS:vacant ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:occupied ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary142 a rdf:Statement ;
+    rdf:object BATS:free ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:occupied ;
+    BATS:rank 2 .
+
+BATS:free a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "free"@en .
+
+BATS:vacant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "vacant"@en .
+
+BATS:occupied a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "occupied"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary143 a rdf:Statement ;
+    rdf:object BATS:on ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:off ;
+    BATS:rank 1 .
+
+BATS:off a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "off"@en .
+
+BATS:on a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "on"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary144 a rdf:Statement ;
+    rdf:object BATS:in ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:out ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary145 a rdf:Statement ;
+    rdf:object BATS:inside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:out ;
+    BATS:rank 2 .
+
+BATS:in a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "in"@en .
+
+BATS:inside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inside"@en .
+
+BATS:out a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "out"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary146 a rdf:Statement ;
+    rdf:object BATS:upward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:outward ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary147 a rdf:Statement ;
+    rdf:object BATS:up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:outward ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary148 a rdf:Statement ;
+    rdf:object BATS:upwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:outward ;
+    BATS:rank 3 .
+
+BATS:up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "up"@en .
+
+BATS:upward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upward"@en .
+
+BATS:upwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "upwards"@en .
+
+BATS:outward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outward"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary149 a rdf:Statement ;
+    rdf:object BATS:under ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:over ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary150 a rdf:Statement ;
+    rdf:object BATS:below ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:over ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary151 a rdf:Statement ;
+    rdf:object BATS:beneath ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:over ;
+    BATS:rank 3 .
+
+BATS:below a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "below"@en .
+
+BATS:beneath a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beneath"@en .
+
+BATS:under a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "under"@en .
+
+BATS:over a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "over"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary152 a rdf:Statement ;
+    rdf:object BATS:subsequently ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary153 a rdf:Statement ;
+    rdf:object BATS:later ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary154 a rdf:Statement ;
+    rdf:object BATS:afterwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary155 a rdf:Statement ;
+    rdf:object BATS:afterward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary156 a rdf:Statement ;
+    rdf:object BATS:after ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 5 .
+
+BATS:antonyms_binary157 a rdf:Statement ;
+    rdf:object BATS:subsequent ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:previously ;
+    BATS:rank 6 .
+
+BATS:after a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "after"@en .
+
+BATS:afterward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afterward"@en .
+
+BATS:afterwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "afterwards"@en .
+
+BATS:later a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "later"@en .
+
+BATS:subsequent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "subsequent"@en .
+
+BATS:subsequently a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "subsequently"@en .
+
+BATS:previously a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "previously"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary158 a rdf:Statement ;
+    rdf:object BATS:retreat ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:proceed ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary159 a rdf:Statement ;
+    rdf:object BATS:return ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:proceed ;
+    BATS:rank 2 .
+
+BATS:retreat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "retreat"@en .
+
+BATS:return a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "return"@en .
+
+BATS:proceed a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "proceed"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary160 a rdf:Statement ;
+    rdf:object BATS:sink ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:rise ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary161 a rdf:Statement ;
+    rdf:object BATS:drop ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:rise ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary162 a rdf:Statement ;
+    rdf:object BATS:fall ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:rise ;
+    BATS:rank 3 .
+
+BATS:drop a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drop"@en .
+
+BATS:fall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fall"@en .
+
+BATS:sink a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sink"@en .
+
+BATS:rise a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rise"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary163 a rdf:Statement ;
+    rdf:object BATS:north ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:south ;
+    BATS:rank 1 .
+
+BATS:north a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "north"@en .
+
+BATS:south a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "south"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary164 a rdf:Statement ;
+    rdf:object BATS:southwest ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:southeast ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary165 a rdf:Statement ;
+    rdf:object BATS:northeast ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:southeast ;
+    BATS:rank 2 .
+
+BATS:northeast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "northeast"@en .
+
+BATS:southwest a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "southwest"@en .
+
+BATS:southeast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "southeast"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary166 a rdf:Statement ;
+    rdf:object BATS:emerge ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:submerge ;
+    BATS:rank 1 .
+
+BATS:emerge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "emerge"@en .
+
+BATS:submerge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "submerge"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary167 a rdf:Statement ;
+    rdf:object BATS:bottom ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:top ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary168 a rdf:Statement ;
+    rdf:object BATS:underside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:top ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary169 a rdf:Statement ;
+    rdf:object BATS:undersurface ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:top ;
+    BATS:rank 3 .
+
+BATS:bottom a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bottom"@en .
+
+BATS:underside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "underside"@en .
+
+BATS:undersurface a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "undersurface"@en .
+
+BATS:top a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "top"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary170 a rdf:Statement ;
+    rdf:object BATS:away ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:toward ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary171 a rdf:Statement ;
+    rdf:object BATS:off ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:toward ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary172 a rdf:Statement ;
+    rdf:object BATS:forth ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:toward ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary173 a rdf:Statement ;
+    rdf:object BATS:aside ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:toward ;
+    BATS:rank 4 .
+
+BATS:aside a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aside"@en .
+
+BATS:away a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "away"@en .
+
+BATS:forth a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forth"@en .
+
+BATS:off a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "off"@en .
+
+BATS:toward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "toward"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary174 a rdf:Statement ;
+    rdf:object BATS:false ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:true ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary175 a rdf:Statement ;
+    rdf:object BATS:incorrect ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:true ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary176 a rdf:Statement ;
+    rdf:object BATS:wrong ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:true ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary177 a rdf:Statement ;
+    rdf:object BATS:mistaken ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:true ;
+    BATS:rank 4 .
+
+BATS:false a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "false"@en .
+
+BATS:incorrect a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "incorrect"@en .
+
+BATS:mistaken a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mistaken"@en .
+
+BATS:wrong a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wrong"@en .
+
+BATS:true a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "true"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary178 a rdf:Statement ;
+    rdf:object BATS:over ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:under ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary179 a rdf:Statement ;
+    rdf:object BATS:above ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:under ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary180 a rdf:Statement ;
+    rdf:object BATS:up ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:under ;
+    BATS:rank 3 .
+
+BATS:above a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "above"@en .
+
+BATS:over a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "over"@en .
+
+BATS:up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "up"@en .
+
+BATS:under a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "under"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary181 a rdf:Statement ;
+    rdf:object BATS:down ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:up ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary182 a rdf:Statement ;
+    rdf:object BATS:downwards ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:up ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary183 a rdf:Statement ;
+    rdf:object BATS:downward ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:up ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary184 a rdf:Statement ;
+    rdf:object BATS:downwardly ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:up ;
+    BATS:rank 4 .
+
+BATS:down a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "down"@en .
+
+BATS:downward a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downward"@en .
+
+BATS:downwardly a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downwardly"@en .
+
+BATS:downwards a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downwards"@en .
+
+BATS:up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "up"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary185 a rdf:Statement ;
+    rdf:object BATS:downhill ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:uphill ;
+    BATS:rank 1 .
+
+BATS:antonyms_binary186 a rdf:Statement ;
+    rdf:object BATS:decline ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:uphill ;
+    BATS:rank 2 .
+
+BATS:antonyms_binary187 a rdf:Statement ;
+    rdf:object BATS:fall ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:uphill ;
+    BATS:rank 3 .
+
+BATS:antonyms_binary188 a rdf:Statement ;
+    rdf:object BATS:declivitous ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:uphill ;
+    BATS:rank 4 .
+
+BATS:antonyms_binary189 a rdf:Statement ;
+    rdf:object BATS:downward-sloping ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:uphill ;
+    BATS:rank 5 .
+
+BATS:decline a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "decline"@en .
+
+BATS:declivitous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "declivitous"@en .
+
+BATS:downhill a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downhill"@en .
+
+BATS:downward-sloping a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "downward-sloping"@en .
+
+BATS:fall a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fall"@en .
+
+BATS:uphill a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "uphill"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:antonyms_binary190 a rdf:Statement ;
+    rdf:object BATS:east ;
+    rdf:predicate BATS:antonyms_binary ;
+    rdf:subject BATS:west ;
+    BATS:rank 1 .
+
+BATS:east a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "east"@en .
+
+BATS:west a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "west"@en .
+

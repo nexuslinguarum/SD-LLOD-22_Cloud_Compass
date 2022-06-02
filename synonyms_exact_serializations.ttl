@@ -1,0 +1,2074 @@
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact01 a rdf:Statement ;
+    rdf:object BATS:aeroplane ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:airplane ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact02 a rdf:Statement ;
+    rdf:object BATS:plane ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:airplane ;
+    BATS:rank 2 .
+
+BATS:aeroplane a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aeroplane"@en .
+
+BATS:plane a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "plane"@en .
+
+BATS:airplane a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "airplane"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact03 a rdf:Statement ;
+    rdf:object BATS:car ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:auto ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact04 a rdf:Statement ;
+    rdf:object BATS:automobile ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:auto ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact05 a rdf:Statement ;
+    rdf:object BATS:motorcar ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:auto ;
+    BATS:rank 3 .
+
+BATS:automobile a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "automobile"@en .
+
+BATS:car a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "car"@en .
+
+BATS:motorcar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "motorcar"@en .
+
+BATS:auto a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "auto"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact06 a rdf:Statement ;
+    rdf:object BATS:infant ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:baby ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact07 a rdf:Statement ;
+    rdf:object BATS:babe ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:baby ;
+    BATS:rank 2 .
+
+BATS:babe a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "babe"@en .
+
+BATS:infant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "infant"@en .
+
+BATS:baby a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "baby"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact08 a rdf:Statement ;
+    rdf:object BATS:bike ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:bicycle ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact09 a rdf:Statement ;
+    rdf:object BATS:wheel ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:bicycle ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact10 a rdf:Statement ;
+    rdf:object BATS:cycle ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:bicycle ;
+    BATS:rank 3 .
+
+BATS:bike a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bike"@en .
+
+BATS:cycle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cycle"@en .
+
+BATS:wheel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wheel"@en .
+
+BATS:bicycle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bicycle"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact11 a rdf:Statement ;
+    rdf:object BATS:kid ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact12 a rdf:Statement ;
+    rdf:object BATS:youngster ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact13 a rdf:Statement ;
+    rdf:object BATS:minor ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact14 a rdf:Statement ;
+    rdf:object BATS:shaver ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact15 a rdf:Statement ;
+    rdf:object BATS:nipper ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact16 a rdf:Statement ;
+    rdf:object BATS:small_fry ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact17 a rdf:Statement ;
+    rdf:object BATS:tiddler ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact18 a rdf:Statement ;
+    rdf:object BATS:tike ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 8 .
+
+BATS:synonyms_exact19 a rdf:Statement ;
+    rdf:object BATS:tyke ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 9 .
+
+BATS:synonyms_exact20 a rdf:Statement ;
+    rdf:object BATS:fry ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 10 .
+
+BATS:synonyms_exact21 a rdf:Statement ;
+    rdf:object BATS:nestling ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:child ;
+    BATS:rank 11 .
+
+BATS:fry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fry"@en .
+
+BATS:kid a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "kid"@en .
+
+BATS:minor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "minor"@en .
+
+BATS:nestling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nestling"@en .
+
+BATS:nipper a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nipper"@en .
+
+BATS:shaver a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shaver"@en .
+
+BATS:small_fry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "small_fry"@en .
+
+BATS:tiddler a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tiddler"@en .
+
+BATS:tike a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tike"@en .
+
+BATS:tyke a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tyke"@en .
+
+BATS:youngster a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "youngster"@en .
+
+BATS:child a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "child"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact22 a rdf:Statement ;
+    rdf:object BATS:fabric ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:cloth ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact23 a rdf:Statement ;
+    rdf:object BATS:material ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:cloth ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact24 a rdf:Statement ;
+    rdf:object BATS:textile ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:cloth ;
+    BATS:rank 3 .
+
+BATS:fabric a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fabric"@en .
+
+BATS:material a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "material"@en .
+
+BATS:textile a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "textile"@en .
+
+BATS:cloth a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cloth"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact25 a rdf:Statement ;
+    rdf:object BATS:clothing ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:clothes ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact26 a rdf:Statement ;
+    rdf:object BATS:apparel ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:clothes ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact27 a rdf:Statement ;
+    rdf:object BATS:dress ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:clothes ;
+    BATS:rank 3 .
+
+BATS:apparel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "apparel"@en .
+
+BATS:clothing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clothing"@en .
+
+BATS:dress a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dress"@en .
+
+BATS:clothes a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clothes"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact28 a rdf:Statement ;
+    rdf:object BATS:baffled ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact29 a rdf:Statement ;
+    rdf:object BATS:befuddled ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact30 a rdf:Statement ;
+    rdf:object BATS:bemused ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact31 a rdf:Statement ;
+    rdf:object BATS:bewildered ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact32 a rdf:Statement ;
+    rdf:object BATS:confounded ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact33 a rdf:Statement ;
+    rdf:object BATS:lost ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact34 a rdf:Statement ;
+    rdf:object BATS:mazed ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact35 a rdf:Statement ;
+    rdf:object BATS:mixed-up ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:confused ;
+    BATS:rank 8 .
+
+BATS:baffled a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "baffled"@en .
+
+BATS:befuddled a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "befuddled"@en .
+
+BATS:bemused a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bemused"@en .
+
+BATS:bewildered a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bewildered"@en .
+
+BATS:confounded a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "confounded"@en .
+
+BATS:lost a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lost"@en .
+
+BATS:mazed a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mazed"@en .
+
+BATS:mixed-up a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mixed-up"@en .
+
+BATS:confused a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "confused"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact36 a rdf:Statement ;
+    rdf:object BATS:bucks ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:dollars ;
+    BATS:rank 1 .
+
+BATS:bucks a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bucks"@en .
+
+BATS:dollars a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dollars"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact37 a rdf:Statement ;
+    rdf:object BATS:accent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:emphasis ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact38 a rdf:Statement ;
+    rdf:object BATS:accentuaion ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:emphasis ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact39 a rdf:Statement ;
+    rdf:object BATS:importance ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:emphasis ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact40 a rdf:Statement ;
+    rdf:object BATS:stress ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:emphasis ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact41 a rdf:Statement ;
+    rdf:object BATS:significance ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:emphasis ;
+    BATS:rank 5 .
+
+BATS:accent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "accent"@en .
+
+BATS:accentuaion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "accentuaion"@en .
+
+BATS:importance a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "importance"@en .
+
+BATS:significance a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "significance"@en .
+
+BATS:stress a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stress"@en .
+
+BATS:emphasis a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "emphasis"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact42 a rdf:Statement ;
+    rdf:object BATS:dad ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:father ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact43 a rdf:Statement ;
+    rdf:object BATS:daddy ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:father ;
+    BATS:rank 2 .
+
+BATS:dad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dad"@en .
+
+BATS:daddy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "daddy"@en .
+
+BATS:father a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "father"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact44 a rdf:Statement ;
+    rdf:object BATS:blossom ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:flower ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact45 a rdf:Statement ;
+    rdf:object BATS:bloom ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:flower ;
+    BATS:rank 2 .
+
+BATS:bloom a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bloom"@en .
+
+BATS:blossom a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "blossom"@en .
+
+BATS:flower a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flower"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact46 a rdf:Statement ;
+    rdf:object BATS:seaport ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:harbor ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact47 a rdf:Statement ;
+    rdf:object BATS:haven ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:harbor ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact48 a rdf:Statement ;
+    rdf:object BATS:harbour ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:harbor ;
+    BATS:rank 3 .
+
+BATS:harbour a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "harbour"@en .
+
+BATS:haven a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "haven"@en .
+
+BATS:seaport a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "seaport"@en .
+
+BATS:harbor a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "harbor"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact49 a rdf:Statement ;
+    rdf:object BATS:aid ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:help ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact50 a rdf:Statement ;
+    rdf:object BATS:assist ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:help ;
+    BATS:rank 2 .
+
+BATS:aid a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "aid"@en .
+
+BATS:assist a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "assist"@en .
+
+BATS:help a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "help"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact51 a rdf:Statement ;
+    rdf:object BATS:hieroglyphic ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:hieroglyph ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact52 a rdf:Statement ;
+    rdf:object BATS:pictogram ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:hieroglyph ;
+    BATS:rank 2 .
+
+BATS:hieroglyphic a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hieroglyphic"@en .
+
+BATS:pictogram a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pictogram"@en .
+
+BATS:hieroglyph a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hieroglyph"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact53 a rdf:Statement ;
+    rdf:object BATS:uniform ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:homogeneous ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact54 a rdf:Statement ;
+    rdf:object BATS:unvarying ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:homogeneous ;
+    BATS:rank 2 .
+
+BATS:uniform a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "uniform"@en .
+
+BATS:unvarying a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unvarying"@en .
+
+BATS:homogeneous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "homogeneous"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact55 a rdf:Statement ;
+    rdf:object BATS:sincere ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:honest ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact56 a rdf:Statement ;
+    rdf:object BATS:ingenuous ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:honest ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact57 a rdf:Statement ;
+    rdf:object BATS:true ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:honest ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact58 a rdf:Statement ;
+    rdf:object BATS:direct ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:honest ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact59 a rdf:Statement ;
+    rdf:object BATS:truthful ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:honest ;
+    BATS:rank 5 .
+
+BATS:direct a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "direct"@en .
+
+BATS:ingenuous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ingenuous"@en .
+
+BATS:sincere a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sincere"@en .
+
+BATS:true a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "true"@en .
+
+BATS:truthful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "truthful"@en .
+
+BATS:honest a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "honest"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact60 a rdf:Statement ;
+    rdf:object BATS:same ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:identical ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact61 a rdf:Statement ;
+    rdf:object BATS:indistinguishable ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:identical ;
+    BATS:rank 2 .
+
+BATS:indistinguishable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "indistinguishable"@en .
+
+BATS:same a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "same"@en .
+
+BATS:identical a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "identical"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact62 a rdf:Statement ;
+    rdf:object BATS:wrong ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact63 a rdf:Statement ;
+    rdf:object BATS:counterfactual ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact64 a rdf:Statement ;
+    rdf:object BATS:erroneous ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact65 a rdf:Statement ;
+    rdf:object BATS:inaccurate ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact66 a rdf:Statement ;
+    rdf:object BATS:specious ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact67 a rdf:Statement ;
+    rdf:object BATS:unsound ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact68 a rdf:Statement ;
+    rdf:object BATS:untrue ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact69 a rdf:Statement ;
+    rdf:object BATS:false ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:incorrect ;
+    BATS:rank 8 .
+
+BATS:counterfactual a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "counterfactual"@en .
+
+BATS:erroneous a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "erroneous"@en .
+
+BATS:false a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "false"@en .
+
+BATS:inaccurate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "inaccurate"@en .
+
+BATS:specious a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "specious"@en .
+
+BATS:unsound a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unsound"@en .
+
+BATS:untrue a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "untrue"@en .
+
+BATS:wrong a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wrong"@en .
+
+BATS:incorrect a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "incorrect"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact70 a rdf:Statement ;
+    rdf:object BATS:clever ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:intelligent ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact71 a rdf:Statement ;
+    rdf:object BATS:smart ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:intelligent ;
+    BATS:rank 2 .
+
+BATS:clever a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clever"@en .
+
+BATS:smart a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "smart"@en .
+
+BATS:intelligent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "intelligent"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact72 a rdf:Statement ;
+    rdf:object BATS:gem ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:jewel ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact73 a rdf:Statement ;
+    rdf:object BATS:stone ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:jewel ;
+    BATS:rank 2 .
+
+BATS:gem a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gem"@en .
+
+BATS:stone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stone"@en .
+
+BATS:jewel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jewel"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact74 a rdf:Statement ;
+    rdf:object BATS:chap ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact75 a rdf:Statement ;
+    rdf:object BATS:fellow ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact76 a rdf:Statement ;
+    rdf:object BATS:feller ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact77 a rdf:Statement ;
+    rdf:object BATS:fella ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact78 a rdf:Statement ;
+    rdf:object BATS:gent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact79 a rdf:Statement ;
+    rdf:object BATS:blighter ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact80 a rdf:Statement ;
+    rdf:object BATS:cuss ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact81 a rdf:Statement ;
+    rdf:object BATS:bloke ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lad ;
+    BATS:rank 8 .
+
+BATS:blighter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "blighter"@en .
+
+BATS:bloke a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bloke"@en .
+
+BATS:chap a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "chap"@en .
+
+BATS:cuss a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cuss"@en .
+
+BATS:fella a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fella"@en .
+
+BATS:feller a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "feller"@en .
+
+BATS:fellow a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fellow"@en .
+
+BATS:gent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gent"@en .
+
+BATS:lad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lad"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact82 a rdf:Statement ;
+    rdf:object BATS:madam ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact83 a rdf:Statement ;
+    rdf:object BATS:dame ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact84 a rdf:Statement ;
+    rdf:object <https://vecto.space/projects/BATS/ma'am> ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact85 a rdf:Statement ;
+    rdf:object BATS:gentlewoman ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact86 a rdf:Statement ;
+    rdf:object BATS:madame ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact87 a rdf:Statement ;
+    rdf:object BATS:woman ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lady ;
+    BATS:rank 6 .
+
+BATS:dame a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dame"@en .
+
+BATS:gentlewoman a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gentlewoman"@en .
+
+<https://vecto.space/projects/BATS/ma'am> a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ma'am"@en .
+
+BATS:madam a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "madam"@en .
+
+BATS:madame a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "madame"@en .
+
+BATS:woman a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "woman"@en .
+
+BATS:lady a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lady"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact88 a rdf:Statement ;
+    rdf:object BATS:indolent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lazy ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact89 a rdf:Statement ;
+    rdf:object BATS:faineant ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lazy ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact90 a rdf:Statement ;
+    rdf:object BATS:otiose ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lazy ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact91 a rdf:Statement ;
+    rdf:object BATS:slothful ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lazy ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact92 a rdf:Statement ;
+    rdf:object BATS:work-shy ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:lazy ;
+    BATS:rank 5 .
+
+BATS:faineant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "faineant"@en .
+
+BATS:indolent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "indolent"@en .
+
+BATS:otiose a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "otiose"@en .
+
+BATS:slothful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "slothful"@en .
+
+BATS:work-shy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "work-shy"@en .
+
+BATS:lazy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lazy"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact93 a rdf:Statement ;
+    rdf:object BATS:listing ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:list ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact94 a rdf:Statement ;
+    rdf:object BATS:enumeration ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:list ;
+    BATS:rank 2 .
+
+BATS:enumeration a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "enumeration"@en .
+
+BATS:listing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "listing"@en .
+
+BATS:list a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "list"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact95 a rdf:Statement ;
+    rdf:object BATS:faithful ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:loyal ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact96 a rdf:Statement ;
+    rdf:object BATS:true ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:loyal ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact97 a rdf:Statement ;
+    rdf:object BATS:dependable ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:loyal ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact98 a rdf:Statement ;
+    rdf:object BATS:devoted ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:loyal ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact99 a rdf:Statement ;
+    rdf:object BATS:reliable ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:loyal ;
+    BATS:rank 5 .
+
+BATS:dependable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dependable"@en .
+
+BATS:devoted a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "devoted"@en .
+
+BATS:faithful a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "faithful"@en .
+
+BATS:reliable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reliable"@en .
+
+BATS:true a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "true"@en .
+
+BATS:loyal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "loyal"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact100 a rdf:Statement ;
+    rdf:object BATS:marketplace ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:market ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact101 a rdf:Statement ;
+    rdf:object BATS:mart ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:market ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact102 a rdf:Statement ;
+    rdf:object BATS:bazaar ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:market ;
+    BATS:rank 3 .
+
+BATS:bazaar a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bazaar"@en .
+
+BATS:marketplace a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "marketplace"@en .
+
+BATS:mart a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mart"@en .
+
+BATS:market a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "market"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact103 a rdf:Statement ;
+    rdf:object BATS:repair ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact104 a rdf:Statement ;
+    rdf:object BATS:fix ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact105 a rdf:Statement ;
+    rdf:object BATS:fixing ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact106 a rdf:Statement ;
+    rdf:object BATS:fixture ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact107 a rdf:Statement ;
+    rdf:object BATS:mending ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact108 a rdf:Statement ;
+    rdf:object BATS:reparation ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact109 a rdf:Statement ;
+    rdf:object BATS:patch ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact110 a rdf:Statement ;
+    rdf:object BATS:darn ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 8 .
+
+BATS:synonyms_exact111 a rdf:Statement ;
+    rdf:object BATS:darning ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mend ;
+    BATS:rank 9 .
+
+BATS:darn a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "darn"@en .
+
+BATS:darning a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "darning"@en .
+
+BATS:fix a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fix"@en .
+
+BATS:fixing a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fixing"@en .
+
+BATS:fixture a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fixture"@en .
+
+BATS:mending a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mending"@en .
+
+BATS:patch a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "patch"@en .
+
+BATS:repair a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "repair"@en .
+
+BATS:reparation a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reparation"@en .
+
+BATS:mend a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mend"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact112 a rdf:Statement ;
+    rdf:object BATS:gauze ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact113 a rdf:Statement ;
+    rdf:object BATS:netting ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact114 a rdf:Statement ;
+    rdf:object BATS:veiling ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact115 a rdf:Statement ;
+    rdf:object BATS:hairnet ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact116 a rdf:Statement ;
+    rdf:object BATS:reseau ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact117 a rdf:Statement ;
+    rdf:object BATS:net ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact118 a rdf:Statement ;
+    rdf:object BATS:save-all ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 7 .
+
+BATS:synonyms_exact119 a rdf:Statement ;
+    rdf:object BATS:snood ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 8 .
+
+BATS:synonyms_exact120 a rdf:Statement ;
+    rdf:object BATS:sparker ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 9 .
+
+BATS:synonyms_exact121 a rdf:Statement ;
+    rdf:object BATS:tulle ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 10 .
+
+BATS:synonyms_exact122 a rdf:Statement ;
+    rdf:object BATS:wirework ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 11 .
+
+BATS:synonyms_exact123 a rdf:Statement ;
+    rdf:object BATS:grillwork ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mesh ;
+    BATS:rank 12 .
+
+BATS:gauze a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gauze"@en .
+
+BATS:grillwork a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grillwork"@en .
+
+BATS:hairnet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hairnet"@en .
+
+BATS:net a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "net"@en .
+
+BATS:netting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "netting"@en .
+
+BATS:reseau a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reseau"@en .
+
+BATS:save-all a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "save-all"@en .
+
+BATS:snood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snood"@en .
+
+BATS:sparker a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sparker"@en .
+
+BATS:tulle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tulle"@en .
+
+BATS:veiling a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "veiling"@en .
+
+BATS:wirework a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wirework"@en .
+
+BATS:mesh a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mesh"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact124 a rdf:Statement ;
+    rdf:object BATS:memorial ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:monument ;
+    BATS:rank 1 .
+
+BATS:memorial a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "memorial"@en .
+
+BATS:monument a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "monument"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact125 a rdf:Statement ;
+    rdf:object BATS:mom ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mother ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact126 a rdf:Statement ;
+    rdf:object BATS:mommy ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mother ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact127 a rdf:Statement ;
+    rdf:object BATS:mum ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:mother ;
+    BATS:rank 3 .
+
+BATS:mom a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mom"@en .
+
+BATS:mommy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mommy"@en .
+
+BATS:mum a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mum"@en .
+
+BATS:mother a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mother"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact128 a rdf:Statement ;
+    rdf:object BATS:slaying ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:murder ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact129 a rdf:Statement ;
+    rdf:object BATS:slay ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:murder ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact130 a rdf:Statement ;
+    rdf:object BATS:execution ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:murder ;
+    BATS:rank 3 .
+
+BATS:execution a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "execution"@en .
+
+BATS:slay a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "slay"@en .
+
+BATS:slaying a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "slaying"@en .
+
+BATS:murder a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "murder"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact131 a rdf:Statement ;
+    rdf:object BATS:modern ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:new ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact132 a rdf:Statement ;
+    rdf:object BATS:recent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:new ;
+    BATS:rank 2 .
+
+BATS:modern a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "modern"@en .
+
+BATS:recent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "recent"@en .
+
+BATS:new a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "new"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact133 a rdf:Statement ;
+    rdf:object BATS:outdated ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:obsolete ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact134 a rdf:Statement ;
+    rdf:object BATS:out-of-date ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:obsolete ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact135 a rdf:Statement ;
+    rdf:object BATS:superannuated ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:obsolete ;
+    BATS:rank 3 .
+
+BATS:out-of-date a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "out-of-date"@en .
+
+BATS:outdated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "outdated"@en .
+
+BATS:superannuated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "superannuated"@en .
+
+BATS:obsolete a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "obsolete"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact136 a rdf:Statement ;
+    rdf:object BATS:arranged ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact137 a rdf:Statement ;
+    rdf:object BATS:configured ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact138 a rdf:Statement ;
+    rdf:object BATS:corporate ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact139 a rdf:Statement ;
+    rdf:object BATS:incorporated ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact140 a rdf:Statement ;
+    rdf:object BATS:re-formed ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 5 .
+
+BATS:synonyms_exact141 a rdf:Statement ;
+    rdf:object BATS:reorganized ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 6 .
+
+BATS:synonyms_exact142 a rdf:Statement ;
+    rdf:object BATS:reorganised ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:organized ;
+    BATS:rank 7 .
+
+BATS:arranged a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "arranged"@en .
+
+BATS:configured a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "configured"@en .
+
+BATS:corporate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "corporate"@en .
+
+BATS:incorporated a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "incorporated"@en .
+
+BATS:re-formed a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "re-formed"@en .
+
+BATS:reorganised a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reorganised"@en .
+
+BATS:reorganized a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reorganized"@en .
+
+BATS:organized a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "organized"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact143 a rdf:Statement ;
+    rdf:object BATS:parcel ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:package ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact144 a rdf:Statement ;
+    rdf:object BATS:pack ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:package ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact145 a rdf:Statement ;
+    rdf:object BATS:packet ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:package ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact146 a rdf:Statement ;
+    rdf:object BATS:bundle ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:package ;
+    BATS:rank 4 .
+
+BATS:bundle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bundle"@en .
+
+BATS:pack a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pack"@en .
+
+BATS:packet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "packet"@en .
+
+BATS:parcel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "parcel"@en .
+
+BATS:package a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "package"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact147 a rdf:Statement ;
+    rdf:object BATS:telephone ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:phone ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact148 a rdf:Statement ;
+    rdf:object BATS:cell ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:phone ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact149 a rdf:Statement ;
+    rdf:object BATS:cellphone ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:phone ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact150 a rdf:Statement ;
+    rdf:object BATS:smartphone ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:phone ;
+    BATS:rank 4 .
+
+BATS:cell a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cell"@en .
+
+BATS:cellphone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cellphone"@en .
+
+BATS:smartphone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "smartphone"@en .
+
+BATS:telephone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "telephone"@en .
+
+BATS:phone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "phone"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact151 a rdf:Statement ;
+    rdf:object BATS:part ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:portion ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact152 a rdf:Statement ;
+    rdf:object BATS:component_part ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:portion ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact153 a rdf:Statement ;
+    rdf:object BATS:component ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:portion ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact154 a rdf:Statement ;
+    rdf:object BATS:constituent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:portion ;
+    BATS:rank 4 .
+
+BATS:component a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "component"@en .
+
+BATS:component_part a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "component_part"@en .
+
+BATS:constituent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "constituent"@en .
+
+BATS:part a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "part"@en .
+
+BATS:portion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "portion"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact155 a rdf:Statement ;
+    rdf:object BATS:railroad ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:railway ;
+    BATS:rank 1 .
+
+BATS:railroad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "railroad"@en .
+
+BATS:railway a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "railway"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact156 a rdf:Statement ;
+    rdf:object BATS:logical ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:rational ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact157 a rdf:Statement ;
+    rdf:object BATS:coherent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:rational ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact158 a rdf:Statement ;
+    rdf:object BATS:reasonable ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:rational ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact159 a rdf:Statement ;
+    rdf:object BATS:sane ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:rational ;
+    BATS:rank 4 .
+
+BATS:coherent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "coherent"@en .
+
+BATS:logical a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "logical"@en .
+
+BATS:reasonable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reasonable"@en .
+
+BATS:sane a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sane"@en .
+
+BATS:rational a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rational"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact160 a rdf:Statement ;
+    rdf:object BATS:sensible ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:reasonable ;
+    BATS:rank 1 .
+
+BATS:reasonable a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "reasonable"@en .
+
+BATS:sensible a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sensible"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact161 a rdf:Statement ;
+    rdf:object BATS:stone ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:rock ;
+    BATS:rank 1 .
+
+BATS:rock a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rock"@en .
+
+BATS:stone a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stone"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact162 a rdf:Statement ;
+    rdf:object BATS:coast ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:shore ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact163 a rdf:Statement ;
+    rdf:object BATS:strand ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:shore ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact164 a rdf:Statement ;
+    rdf:object BATS:bank ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:shore ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact165 a rdf:Statement ;
+    rdf:object BATS:beach ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:shore ;
+    BATS:rank 4 .
+
+BATS:synonyms_exact166 a rdf:Statement ;
+    rdf:object BATS: ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:shore ;
+    BATS:rank 5 .
+
+BATS: a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label ""@en .
+
+BATS:bank a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bank"@en .
+
+BATS:beach a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "beach"@en .
+
+BATS:coast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "coast"@en .
+
+BATS:strand a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "strand"@en .
+
+BATS:shore a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shore"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact167 a rdf:Statement ;
+    rdf:object BATS:serpent ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:snake ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact168 a rdf:Statement ;
+    rdf:object BATS:ophidian ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:snake ;
+    BATS:rank 2 .
+
+BATS:ophidian a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "ophidian"@en .
+
+BATS:serpent a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "serpent"@en .
+
+BATS:snake a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "snake"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact169 a rdf:Statement ;
+    rdf:object BATS:couch ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:sofa ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact170 a rdf:Statement ;
+    rdf:object BATS:lounge ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:sofa ;
+    BATS:rank 2 .
+
+BATS:couch a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "couch"@en .
+
+BATS:lounge a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lounge"@en .
+
+BATS:sofa a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sofa"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact171 a rdf:Statement ;
+    rdf:object BATS:partner ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact172 a rdf:Statement ;
+    rdf:object BATS:mate ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact173 a rdf:Statement ;
+    rdf:object BATS:better_half ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 3 .
+
+BATS:better_half a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "better_half"@en .
+
+BATS:mate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mate"@en .
+
+BATS:partner a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "partner"@en .
+
+BATS:spouse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "spouse"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact174 a rdf:Statement ;
+    rdf:object BATS:manner ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:style ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact175 a rdf:Statement ;
+    rdf:object BATS:mode ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:style ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact176 a rdf:Statement ;
+    rdf:object BATS:fashion ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:style ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact177 a rdf:Statement ;
+    rdf:object BATS:way ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:style ;
+    BATS:rank 4 .
+
+BATS:fashion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fashion"@en .
+
+BATS:manner a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "manner"@en .
+
+BATS:mode a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "mode"@en .
+
+BATS:way a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "way"@en .
+
+BATS:style a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "style"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact178 a rdf:Statement ;
+    rdf:object BATS:confectionery ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:sweets ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact179 a rdf:Statement ;
+    rdf:object BATS:dessert ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:sweets ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact180 a rdf:Statement ;
+    rdf:object BATS:confection ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:sweets ;
+    BATS:rank 3 .
+
+BATS:confection a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "confection"@en .
+
+BATS:confectionery a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "confectionery"@en .
+
+BATS:dessert a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dessert"@en .
+
+BATS:sweets a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sweets"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact181 a rdf:Statement ;
+    rdf:object BATS:scoundrel ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:villain ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact182 a rdf:Statement ;
+    rdf:object BATS:rascal ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:villain ;
+    BATS:rank 2 .
+
+BATS:rascal a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rascal"@en .
+
+BATS:scoundrel a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "scoundrel"@en .
+
+BATS:villain a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "villain"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:synonyms_exact183 a rdf:Statement ;
+    rdf:object BATS:lexicon ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:vocabulary ;
+    BATS:rank 1 .
+
+BATS:synonyms_exact184 a rdf:Statement ;
+    rdf:object BATS:wordbook ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:vocabulary ;
+    BATS:rank 2 .
+
+BATS:synonyms_exact185 a rdf:Statement ;
+    rdf:object BATS:dictionary ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:vocabulary ;
+    BATS:rank 3 .
+
+BATS:synonyms_exact186 a rdf:Statement ;
+    rdf:object BATS:glossary ;
+    rdf:predicate BATS:synonyms_exact ;
+    rdf:subject BATS:vocabulary ;
+    BATS:rank 4 .
+
+BATS:dictionary a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "dictionary"@en .
+
+BATS:glossary a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glossary"@en .
+
+BATS:lexicon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lexicon"@en .
+
+BATS:wordbook a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wordbook"@en .
+
+BATS:vocabulary a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "vocabulary"@en .
+

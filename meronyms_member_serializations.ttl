@@ -1,0 +1,1417 @@
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member01 a rdf:Statement ;
+    rdf:object BATS:troupe ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:acrobat ;
+    BATS:rank 1 .
+
+BATS:acrobat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "acrobat"@en .
+
+BATS:troupe a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "troupe"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member02 a rdf:Statement ;
+    rdf:object BATS:herd ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:antelope ;
+    BATS:rank 1 .
+
+BATS:antelope a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "antelope"@en .
+
+BATS:herd a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "herd"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member03 a rdf:Statement ;
+    rdf:object BATS:swarm ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 1 .
+
+BATS:meronyms_member04 a rdf:Statement ;
+    rdf:object BATS:hive ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 2 .
+
+BATS:meronyms_member05 a rdf:Statement ;
+    rdf:object BATS:colony ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 3 .
+
+BATS:meronyms_member06 a rdf:Statement ;
+    rdf:object BATS:drift ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 4 .
+
+BATS:meronyms_member07 a rdf:Statement ;
+    rdf:object BATS:cast ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 5 .
+
+BATS:meronyms_member08 a rdf:Statement ;
+    rdf:object BATS:nest ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 6 .
+
+BATS:meronyms_member09 a rdf:Statement ;
+    rdf:object BATS:rabble ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 7 .
+
+BATS:meronyms_member10 a rdf:Statement ;
+    rdf:object BATS:stand ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bee ;
+    BATS:rank 8 .
+
+BATS:cast a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cast"@en .
+
+BATS:colony a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "colony"@en .
+
+BATS:drift a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "drift"@en .
+
+BATS:hive a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "hive"@en .
+
+BATS:nest a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nest"@en .
+
+BATS:rabble a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "rabble"@en .
+
+BATS:stand a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "stand"@en .
+
+BATS:swarm a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "swarm"@en .
+
+BATS:bee a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bee"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member11 a rdf:Statement ;
+    rdf:object BATS:flock ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:bird ;
+    BATS:rank 1 .
+
+BATS:bird a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bird"@en .
+
+BATS:flock a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flock"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member12 a rdf:Statement ;
+    rdf:object BATS:library ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 1 .
+
+BATS:meronyms_member13 a rdf:Statement ;
+    rdf:object BATS:shelf ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 2 .
+
+BATS:meronyms_member14 a rdf:Statement ;
+    rdf:object BATS:collection ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 3 .
+
+BATS:meronyms_member15 a rdf:Statement ;
+    rdf:object BATS:accounting ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 4 .
+
+BATS:meronyms_member16 a rdf:Statement ;
+    rdf:object BATS:accounting_system ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 5 .
+
+BATS:meronyms_member17 a rdf:Statement ;
+    rdf:object BATS:method_of_accounting ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:book ;
+    BATS:rank 6 .
+
+BATS:accounting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "accounting"@en .
+
+BATS:accounting_system a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "accounting_system"@en .
+
+BATS:collection a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "collection"@en .
+
+BATS:library a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "library"@en .
+
+BATS:method_of_accounting a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "method_of_accounting"@en .
+
+BATS:shelf a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shelf"@en .
+
+BATS:book a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "book"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member18 a rdf:Statement ;
+    rdf:object BATS:cattle ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:calf ;
+    BATS:rank 1 .
+
+BATS:meronyms_member19 a rdf:Statement ;
+    rdf:object BATS:herd ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:calf ;
+    BATS:rank 2 .
+
+BATS:cattle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cattle"@en .
+
+BATS:herd a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "herd"@en .
+
+BATS:calf a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "calf"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member20 a rdf:Statement ;
+    rdf:object BATS:train ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:car ;
+    BATS:rank 1 .
+
+BATS:meronyms_member21 a rdf:Statement ;
+    rdf:object BATS:procession ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:car ;
+    BATS:rank 2 .
+
+BATS:procession a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "procession"@en .
+
+BATS:train a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "train"@en .
+
+BATS:car a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "car"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member22 a rdf:Statement ;
+    rdf:object BATS:clowder ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cat ;
+    BATS:rank 1 .
+
+BATS:meronyms_member23 a rdf:Statement ;
+    rdf:object BATS:glaring ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cat ;
+    BATS:rank 2 .
+
+BATS:meronyms_member24 a rdf:Statement ;
+    rdf:object BATS:clutter ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cat ;
+    BATS:rank 3 .
+
+BATS:meronyms_member25 a rdf:Statement ;
+    rdf:object BATS:pounce ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cat ;
+    BATS:rank 4 .
+
+BATS:clowder a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clowder"@en .
+
+BATS:clutter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "clutter"@en .
+
+BATS:glaring a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "glaring"@en .
+
+BATS:pounce a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pounce"@en .
+
+BATS:cat a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cat"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member26 a rdf:Statement ;
+    rdf:object BATS:herd ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cattle ;
+    BATS:rank 1 .
+
+BATS:cattle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cattle"@en .
+
+BATS:herd a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "herd"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member27 a rdf:Statement ;
+    rdf:object BATS:congregation ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:christian ;
+    BATS:rank 1 .
+
+BATS:meronyms_member28 a rdf:Statement ;
+    rdf:object BATS:church ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:christian ;
+    BATS:rank 2 .
+
+BATS:meronyms_member29 a rdf:Statement ;
+    rdf:object BATS:parish ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:christian ;
+    BATS:rank 3 .
+
+BATS:church a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "church"@en .
+
+BATS:congregation a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "congregation"@en .
+
+BATS:parish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "parish"@en .
+
+BATS:christian a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "christian"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member30 a rdf:Statement ;
+    rdf:object BATS:citizenry ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:citizen ;
+    BATS:rank 1 .
+
+BATS:meronyms_member31 a rdf:Statement ;
+    rdf:object BATS:country ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:citizen ;
+    BATS:rank 2 .
+
+BATS:meronyms_member32 a rdf:Statement ;
+    rdf:object BATS:state ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:citizen ;
+    BATS:rank 3 .
+
+BATS:citizenry a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "citizenry"@en .
+
+BATS:country a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "country"@en .
+
+BATS:state a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "state"@en .
+
+BATS:citizen a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "citizen"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member33 a rdf:Statement ;
+    rdf:object BATS:university ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:college ;
+    BATS:rank 1 .
+
+BATS:college a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "college"@en .
+
+BATS:university a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "university"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member34 a rdf:Statement ;
+    rdf:object BATS:state ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:county ;
+    BATS:rank 1 .
+
+BATS:meronyms_member35 a rdf:Statement ;
+    rdf:object BATS:country ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:county ;
+    BATS:rank 2 .
+
+BATS:country a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "country"@en .
+
+BATS:state a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "state"@en .
+
+BATS:county a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "county"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member36 a rdf:Statement ;
+    rdf:object BATS:herd ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:cow ;
+    BATS:rank 1 .
+
+BATS:cow a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "cow"@en .
+
+BATS:herd a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "herd"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member37 a rdf:Statement ;
+    rdf:object BATS:murder ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:crow ;
+    BATS:rank 1 .
+
+BATS:crow a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "crow"@en .
+
+BATS:murder a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "murder"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member38 a rdf:Statement ;
+    rdf:object BATS:company ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:division ;
+    BATS:rank 1 .
+
+BATS:meronyms_member39 a rdf:Statement ;
+    rdf:object BATS:business ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:division ;
+    BATS:rank 2 .
+
+BATS:meronyms_member40 a rdf:Statement ;
+    rdf:object BATS:platoon ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:division ;
+    BATS:rank 3 .
+
+BATS:meronyms_member41 a rdf:Statement ;
+    rdf:object BATS:battle_group ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:division ;
+    BATS:rank 4 .
+
+BATS:battle_group a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "battle_group"@en .
+
+BATS:business a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "business"@en .
+
+BATS:company a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "company"@en .
+
+BATS:platoon a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "platoon"@en .
+
+BATS:division a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "division"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member42 a rdf:Statement ;
+    rdf:object BATS:herd ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:elephant ;
+    BATS:rank 1 .
+
+BATS:elephant a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "elephant"@en .
+
+BATS:herd a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "herd"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member43 a rdf:Statement ;
+    rdf:object BATS:staff ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:employee ;
+    BATS:rank 1 .
+
+BATS:meronyms_member44 a rdf:Statement ;
+    rdf:object BATS:company ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:employee ;
+    BATS:rank 2 .
+
+BATS:company a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "company"@en .
+
+BATS:staff a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "staff"@en .
+
+BATS:employee a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "employee"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member45 a rdf:Statement ;
+    rdf:object BATS:school ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:fish ;
+    BATS:rank 1 .
+
+BATS:fish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "fish"@en .
+
+BATS:school a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "school"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member46 a rdf:Statement ;
+    rdf:object BATS:bouquet ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:flower ;
+    BATS:rank 1 .
+
+BATS:meronyms_member47 a rdf:Statement ;
+    rdf:object BATS:bunch ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:flower ;
+    BATS:rank 2 .
+
+BATS:bouquet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bouquet"@en .
+
+BATS:bunch a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "bunch"@en .
+
+BATS:flower a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flower"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member48 a rdf:Statement ;
+    rdf:object BATS:universe ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:galaxy ;
+    BATS:rank 1 .
+
+BATS:galaxy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "galaxy"@en .
+
+BATS:universe a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "universe"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member49 a rdf:Statement ;
+    rdf:object BATS:gaggle ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:goose ;
+    BATS:rank 1 .
+
+BATS:gaggle a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "gaggle"@en .
+
+BATS:goose a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "goose"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member50 a rdf:Statement ;
+    rdf:object BATS:jury ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:juror ;
+    BATS:rank 1 .
+
+BATS:juror a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "juror"@en .
+
+BATS:jury a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "jury"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member51 a rdf:Statement ;
+    rdf:object BATS:litter ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:kitten ;
+    BATS:rank 1 .
+
+BATS:kitten a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "kitten"@en .
+
+BATS:litter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "litter"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member52 a rdf:Statement ;
+    rdf:object BATS:alphabet ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:letter ;
+    BATS:rank 1 .
+
+BATS:alphabet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "alphabet"@en .
+
+BATS:letter a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "letter"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member53 a rdf:Statement ;
+    rdf:object BATS:pride ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:lion ;
+    BATS:rank 1 .
+
+BATS:lion a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "lion"@en .
+
+BATS:pride a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pride"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member54 a rdf:Statement ;
+    rdf:object BATS:audience ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:listener ;
+    BATS:rank 1 .
+
+BATS:audience a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "audience"@en .
+
+BATS:listener a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "listener"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member55 a rdf:Statement ;
+    rdf:object BATS:club ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:member ;
+    BATS:rank 1 .
+
+BATS:meronyms_member56 a rdf:Statement ;
+    rdf:object BATS:team ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:member ;
+    BATS:rank 2 .
+
+BATS:meronyms_member57 a rdf:Statement ;
+    rdf:object BATS:group ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:member ;
+    BATS:rank 3 .
+
+BATS:meronyms_member58 a rdf:Statement ;
+    rdf:object BATS:band ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:member ;
+    BATS:rank 4 .
+
+BATS:meronyms_member59 a rdf:Statement ;
+    rdf:object BATS:community ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:member ;
+    BATS:rank 5 .
+
+BATS:band a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "band"@en .
+
+BATS:club a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "club"@en .
+
+BATS:community a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "community"@en .
+
+BATS:group a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "group"@en .
+
+BATS:team a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "team"@en .
+
+BATS:member a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "member"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member60 a rdf:Statement ;
+    rdf:object BATS:orchestra ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:musician ;
+    BATS:rank 1 .
+
+BATS:meronyms_member61 a rdf:Statement ;
+    rdf:object BATS:band ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:musician ;
+    BATS:rank 2 .
+
+BATS:band a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "band"@en .
+
+BATS:orchestra a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "orchestra"@en .
+
+BATS:musician a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "musician"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member62 a rdf:Statement ;
+    rdf:object BATS:horde ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:nomad ;
+    BATS:rank 1 .
+
+BATS:horde a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "horde"@en .
+
+BATS:nomad a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "nomad"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member63 a rdf:Statement ;
+    rdf:object BATS:book ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:page ;
+    BATS:rank 1 .
+
+BATS:meronyms_member64 a rdf:Statement ;
+    rdf:object BATS:notebook ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:page ;
+    BATS:rank 2 .
+
+BATS:meronyms_member65 a rdf:Statement ;
+    rdf:object BATS:website ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:page ;
+    BATS:rank 3 .
+
+BATS:meronyms_member66 a rdf:Statement ;
+    rdf:object BATS:web-site ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:page ;
+    BATS:rank 4 .
+
+BATS:book a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "book"@en .
+
+BATS:notebook a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "notebook"@en .
+
+BATS:web-site a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "web-site"@en .
+
+BATS:website a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "website"@en .
+
+BATS:page a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "page"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member67 a rdf:Statement ;
+    rdf:object BATS:parish ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:parishioner ;
+    BATS:rank 1 .
+
+BATS:meronyms_member68 a rdf:Statement ;
+    rdf:object BATS:church ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:parishioner ;
+    BATS:rank 2 .
+
+BATS:church a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "church"@en .
+
+BATS:parish a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "parish"@en .
+
+BATS:parishioner a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "parishioner"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member69 a rdf:Statement ;
+    rdf:object BATS:society ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:person ;
+    BATS:rank 1 .
+
+BATS:meronyms_member70 a rdf:Statement ;
+    rdf:object BATS:company ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:person ;
+    BATS:rank 2 .
+
+BATS:meronyms_member71 a rdf:Statement ;
+    rdf:object BATS:party ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:person ;
+    BATS:rank 3 .
+
+BATS:meronyms_member72 a rdf:Statement ;
+    rdf:object BATS:world ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:person ;
+    BATS:rank 4 .
+
+BATS:company a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "company"@en .
+
+BATS:party a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "party"@en .
+
+BATS:society a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "society"@en .
+
+BATS:world a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "world"@en .
+
+BATS:person a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "person"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member73 a rdf:Statement ;
+    rdf:object BATS:album ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:photo ;
+    BATS:rank 1 .
+
+BATS:meronyms_member74 a rdf:Statement ;
+    rdf:object BATS:collection ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:photo ;
+    BATS:rank 2 .
+
+BATS:meronyms_member75 a rdf:Statement ;
+    rdf:object BATS:library ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:photo ;
+    BATS:rank 3 .
+
+BATS:album a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "album"@en .
+
+BATS:collection a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "collection"@en .
+
+BATS:library a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "library"@en .
+
+BATS:photo a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "photo"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member76 a rdf:Statement ;
+    rdf:object BATS:team ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:player ;
+    BATS:rank 1 .
+
+BATS:meronyms_member77 a rdf:Statement ;
+    rdf:object BATS:group ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:player ;
+    BATS:rank 2 .
+
+BATS:meronyms_member78 a rdf:Statement ;
+    rdf:object BATS:orchestra ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:player ;
+    BATS:rank 3 .
+
+BATS:group a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "group"@en .
+
+BATS:orchestra a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "orchestra"@en .
+
+BATS:team a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "team"@en .
+
+BATS:player a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "player"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member79 a rdf:Statement ;
+    rdf:object BATS:police ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:policeman ;
+    BATS:rank 1 .
+
+BATS:police a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "police"@en .
+
+BATS:policeman a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "policeman"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member80 a rdf:Statement ;
+    rdf:object BATS:staff ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:secretary ;
+    BATS:rank 1 .
+
+BATS:secretary a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "secretary"@en .
+
+BATS:staff a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "staff"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member81 a rdf:Statement ;
+    rdf:object BATS:senate ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:senator ;
+    BATS:rank 1 .
+
+BATS:meronyms_member82 a rdf:Statement ;
+    rdf:object BATS:house ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:senator ;
+    BATS:rank 2 .
+
+BATS:house a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "house"@en .
+
+BATS:senate a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "senate"@en .
+
+BATS:senator a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "senator"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member83 a rdf:Statement ;
+    rdf:object BATS:flock ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:sheep ;
+    BATS:rank 1 .
+
+BATS:flock a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "flock"@en .
+
+BATS:sheep a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sheep"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member84 a rdf:Statement ;
+    rdf:object BATS:shrubbery ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:shrub ;
+    BATS:rank 1 .
+
+BATS:shrub a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shrub"@en .
+
+BATS:shrubbery a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "shrubbery"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member85 a rdf:Statement ;
+    rdf:object BATS:choir ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:singer ;
+    BATS:rank 1 .
+
+BATS:meronyms_member86 a rdf:Statement ;
+    rdf:object BATS:band ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:singer ;
+    BATS:rank 2 .
+
+BATS:meronyms_member87 a rdf:Statement ;
+    rdf:object BATS:duo ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:singer ;
+    BATS:rank 3 .
+
+BATS:meronyms_member88 a rdf:Statement ;
+    rdf:object BATS:trio ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:singer ;
+    BATS:rank 4 .
+
+BATS:meronyms_member89 a rdf:Statement ;
+    rdf:object BATS:quartet ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:singer ;
+    BATS:rank 5 .
+
+BATS:band a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "band"@en .
+
+BATS:choir a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "choir"@en .
+
+BATS:duo a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "duo"@en .
+
+BATS:quartet a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "quartet"@en .
+
+BATS:trio a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "trio"@en .
+
+BATS:singer a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "singer"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member90 a rdf:Statement ;
+    rdf:object BATS:army ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:soldier ;
+    BATS:rank 1 .
+
+BATS:meronyms_member91 a rdf:Statement ;
+    rdf:object BATS:unit ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:soldier ;
+    BATS:rank 2 .
+
+BATS:meronyms_member92 a rdf:Statement ;
+    rdf:object BATS:division ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:soldier ;
+    BATS:rank 3 .
+
+BATS:meronyms_member93 a rdf:Statement ;
+    rdf:object BATS:troop ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:soldier ;
+    BATS:rank 4 .
+
+BATS:army a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "army"@en .
+
+BATS:division a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "division"@en .
+
+BATS:troop a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "troop"@en .
+
+BATS:unit a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "unit"@en .
+
+BATS:soldier a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "soldier"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member94 a rdf:Statement ;
+    rdf:object BATS:album ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:song ;
+    BATS:rank 1 .
+
+BATS:meronyms_member95 a rdf:Statement ;
+    rdf:object BATS:collection ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:song ;
+    BATS:rank 2 .
+
+BATS:meronyms_member96 a rdf:Statement ;
+    rdf:object BATS:antology ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:song ;
+    BATS:rank 3 .
+
+BATS:meronyms_member97 a rdf:Statement ;
+    rdf:object BATS:library ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:song ;
+    BATS:rank 4 .
+
+BATS:album a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "album"@en .
+
+BATS:antology a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "antology"@en .
+
+BATS:collection a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "collection"@en .
+
+BATS:library a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "library"@en .
+
+BATS:song a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "song"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member100 a rdf:Statement ;
+    rdf:object BATS:family ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 3 .
+
+BATS:meronyms_member98 a rdf:Statement ;
+    rdf:object BATS:couple ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 1 .
+
+BATS:meronyms_member99 a rdf:Statement ;
+    rdf:object BATS:relationship ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:spouse ;
+    BATS:rank 2 .
+
+BATS:couple a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "couple"@en .
+
+BATS:family a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "family"@en .
+
+BATS:relationship a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "relationship"@en .
+
+BATS:spouse a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "spouse"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member101 a rdf:Statement ;
+    rdf:object BATS:constellation ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:star ;
+    BATS:rank 1 .
+
+BATS:meronyms_member102 a rdf:Statement ;
+    rdf:object BATS:galaxy ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:star ;
+    BATS:rank 2 .
+
+BATS:constellation a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "constellation"@en .
+
+BATS:galaxy a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "galaxy"@en .
+
+BATS:star a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "star"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member103 a rdf:Statement ;
+    rdf:object BATS:country ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:state ;
+    BATS:rank 1 .
+
+BATS:meronyms_member104 a rdf:Statement ;
+    rdf:object BATS:province ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:state ;
+    BATS:rank 2 .
+
+BATS:country a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "country"@en .
+
+BATS:province a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "province"@en .
+
+BATS:state a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "state"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member105 a rdf:Statement ;
+    rdf:object BATS:class ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:student ;
+    BATS:rank 1 .
+
+BATS:meronyms_member106 a rdf:Statement ;
+    rdf:object BATS:school ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:student ;
+    BATS:rank 2 .
+
+BATS:class a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "class"@en .
+
+BATS:school a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "school"@en .
+
+BATS:student a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "student"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member107 a rdf:Statement ;
+    rdf:object BATS:forest ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:tree ;
+    BATS:rank 1 .
+
+BATS:meronyms_member108 a rdf:Statement ;
+    rdf:object BATS:wood ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:tree ;
+    BATS:rank 2 .
+
+BATS:meronyms_member109 a rdf:Statement ;
+    rdf:object BATS:grove ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:tree ;
+    BATS:rank 3 .
+
+BATS:forest a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "forest"@en .
+
+BATS:grove a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "grove"@en .
+
+BATS:wood a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wood"@en .
+
+BATS:tree a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "tree"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member110 a rdf:Statement ;
+    rdf:object BATS:pack ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:wolf ;
+    BATS:rank 1 .
+
+BATS:pack a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "pack"@en .
+
+BATS:wolf a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "wolf"@en .
+
+@prefix BATS: <https://vecto.space/projects/BATS/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+BATS:meronyms_member111 a rdf:Statement ;
+    rdf:object BATS:paragraph ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:word ;
+    BATS:rank 1 .
+
+BATS:meronyms_member112 a rdf:Statement ;
+    rdf:object BATS:sentence ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:word ;
+    BATS:rank 2 .
+
+BATS:meronyms_member113 a rdf:Statement ;
+    rdf:object BATS:text ;
+    rdf:predicate BATS:meronyms_member ;
+    rdf:subject BATS:word ;
+    BATS:rank 3 .
+
+BATS:paragraph a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "paragraph"@en .
+
+BATS:sentence a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "sentence"@en .
+
+BATS:text a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "text"@en .
+
+BATS:word a <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+    rdfs:label "word"@en .
+
