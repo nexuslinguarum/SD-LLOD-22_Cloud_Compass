@@ -14,11 +14,15 @@ class TranslationStrategy:
 
 class SPARQLTranslationStrategy(TranslationStrategy):
     sparql_query = ""
-    endpoint = None
-    def translate(self, source, source_language):
-        return endpoint.query(sparql_query.substitute({'source' : source, 'lg': source_language}))
 
-class DirectDBnaryTranslationStrategy(TranslationStrategy):
+    endpoint = None
+
+    def translate(self, source, source_language):
+      qq = self.sparql_query.substitute({'source' : source, 'lg': source_language})
+      #print('Querying with: ' + qq)
+      return self.endpoint.query_as_dataframe(qq)
+
+class DirectDBnaryTranslationStrategy(SPARQLTranslationStrategy):
     name = "Direct DBnary"
 
     sparql_query = Template("""
@@ -33,7 +37,7 @@ class DirectDBnaryTranslationStrategy(TranslationStrategy):
 
     endpoint = SPARQLEndpoint("http://kaiko.getalp.org/sparql")
 
-class CrossDBnaryTranslationStrategy(TranslationStrategy):
+class CrossDBnaryTranslationStrategy(SPARQLTranslationStrategy):
     name = "Cross Translation DBnary"
 
     sparql_query = Template("""
@@ -60,7 +64,7 @@ WHERE {
     endpoint = SPARQLEndpoint("http://kaiko.getalp.org/sparql")
 
 
-class GeneralOntologyTranslationStrategy(TranslationStrategy):
+class GeneralOntologyTranslationStrategy(SPARQLTranslationStrategy):
     name = "General Shared Label From Ontology"
 
     sparql_query = Template("""
@@ -75,8 +79,17 @@ WHERE {
     """)
 
 class DBpediaTranslationStrategy(GeneralOntologyTranslationStrategy):
-    name = super().name + ": DBpedia"
+    name = GeneralOntologyTranslationStrategy.name + ": DBpedia"
+
+    endpoint = SPARQLEndpoint('http://dbpedia.org/sparql', http_query_method=GET)
+
+    def translate(self, source, source_language):
+      if(source[0].islower()):
+        source = source.capitalize()
+      return super().translate(source, source_language)
 
 class WikiDataTranslationStrategy(GeneralOntologyTranslationStrategy):
-    name = super().name + ": WikiData"
+    name = GeneralOntologyTranslationStrategy.name + ": WikiData"
+    
+    endpoint = SPARQLEndpoint('https://query.wikidata.org/sparql')
 
