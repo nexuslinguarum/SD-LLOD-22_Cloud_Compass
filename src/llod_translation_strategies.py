@@ -1,4 +1,5 @@
 import pandas as pd
+from string import Template
 from sparql_wrapper import SPARQLEndpoint
 
 class TranslationStrategy:
@@ -14,16 +15,16 @@ class TranslationStrategy:
 class DirectDBnaryTranslationStrategy(TranslationStrategy):
     name = "Direct DBnary translation links"
 
-    sparql_query = """
+    sparql_query = Template("""
         SELECT ?target ?target_language
         WHERE { 
             ?tr a dbnary:Translation;
                 dbnary:isTranslationOf / rdfs:label "$source"@$lg ;
                 dbnary:writtenForm ?target .
             BIND (LANG(?target) as ?target_language)
-    """
+    """)
+
     endpoint = SPARQLEndpoint("http://kaiko.getalp.org/sparql")
 
     def translate(self, source, source_language):
-
-        endpoint.query(sparql_query)
+        return endpoint.query(sparql_query.substitute({'source' : source, 'lg': source_language}))
