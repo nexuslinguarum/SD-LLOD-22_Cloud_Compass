@@ -1,6 +1,6 @@
 import pandas as pd
 from string import Template
-from sparql_wrapper import SPARQLEndpoint
+from SPARQLWrapper import SPARQLWrapper, JSON, POST, GET, POSTDIRECTLY, CSV, TURTLE
 
 class TranslationStrategy:
     name = "Abstract translation strategy"
